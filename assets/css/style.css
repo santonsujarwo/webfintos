@@ -1,0 +1,312 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-BlackIt.eot");
+  src: url("../font/SourceSansPro-BlackIt.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-BlackIt.woff2") format("woff2"), url("../font/SourceSansPro-BlackIt.woff") format("woff"), url("../font/SourceSansPro-BlackIt.ttf") format("truetype"), url("../font/SourceSansPro-BlackIt.svg#SourceSansPro-BlackIt") format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-Black.eot");
+  src: url("../font/SourceSansPro-Black.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-Black.woff2") format("woff2"), url("../font/SourceSansPro-Black.woff") format("woff"), url("../font/SourceSansPro-Black.ttf") format("truetype"), url("../font/SourceSansPro-Black.svg#SourceSansPro-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-Bold.eot");
+  src: url("../font/SourceSansPro-Bold.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-Bold.woff2") format("woff2"), url("../font/SourceSansPro-Bold.woff") format("woff"), url("../font/SourceSansPro-Bold.ttf") format("truetype"), url("../font/SourceSansPro-Bold.svg#SourceSansPro-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-BoldIt.eot");
+  src: url("../font/SourceSansPro-BoldIt.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-BoldIt.woff2") format("woff2"), url("../font/SourceSansPro-BoldIt.woff") format("woff"), url("../font/SourceSansPro-BoldIt.ttf") format("truetype"), url("../font/SourceSansPro-BoldIt.svg#SourceSansPro-BoldIt") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-ExtraLight.eot");
+  src: url("../font/SourceSansPro-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-ExtraLight.woff2") format("woff2"), url("../font/SourceSansPro-ExtraLight.woff") format("woff"), url("../font/SourceSansPro-ExtraLight.ttf") format("truetype"), url("../font/SourceSansPro-ExtraLight.svg#SourceSansPro-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-Light.eot");
+  src: url("../font/SourceSansPro-Light.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-Light.woff2") format("woff2"), url("../font/SourceSansPro-Light.woff") format("woff"), url("../font/SourceSansPro-Light.ttf") format("truetype"), url("../font/SourceSansPro-Light.svg#SourceSansPro-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-It.eot");
+  src: url("../font/SourceSansPro-It.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-It.woff2") format("woff2"), url("../font/SourceSansPro-It.woff") format("woff"), url("../font/SourceSansPro-It.ttf") format("truetype"), url("../font/SourceSansPro-It.svg#SourceSansPro-It") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-ExtraLightIt.eot");
+  src: url("../font/SourceSansPro-ExtraLightIt.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-ExtraLightIt.woff2") format("woff2"), url("../font/SourceSansPro-ExtraLightIt.woff") format("woff"), url("../font/SourceSansPro-ExtraLightIt.ttf") format("truetype"), url("../font/SourceSansPro-ExtraLightIt.svg#SourceSansPro-ExtraLightIt") format("svg");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-LightIt.eot");
+  src: url("../font/SourceSansPro-LightIt.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-LightIt.woff2") format("woff2"), url("../font/SourceSansPro-LightIt.woff") format("woff"), url("../font/SourceSansPro-LightIt.ttf") format("truetype"), url("../font/SourceSansPro-LightIt.svg#SourceSansPro-LightIt") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-SemiboldIt.eot");
+  src: url("../font/SourceSansPro-SemiboldIt.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-SemiboldIt.woff2") format("woff2"), url("../font/SourceSansPro-SemiboldIt.woff") format("woff"), url("../font/SourceSansPro-SemiboldIt.ttf") format("truetype"), url("../font/SourceSansPro-SemiboldIt.svg#SourceSansPro-SemiboldIt") format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-Regular.eot");
+  src: url("../font/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-Regular.woff2") format("woff2"), url("../font/SourceSansPro-Regular.woff") format("woff"), url("../font/SourceSansPro-Regular.ttf") format("truetype"), url("../font/SourceSansPro-Regular.svg#SourceSansPro-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("../font/SourceSansPro-Semibold.eot");
+  src: url("../font/SourceSansPro-Semibold.eot?#iefix") format("embedded-opentype"), url("../font/SourceSansPro-Semibold.woff2") format("woff2"), url("../font/SourceSansPro-Semibold.woff") format("woff"), url("../font/SourceSansPro-Semibold.ttf") format("truetype"), url("../font/SourceSansPro-Semibold.svg#SourceSansPro-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/*color*/
+/*typography*/
+/*font weight*/
+/*button mixin*/
+.btn-primary {
+  background-color: #DAA10D;
+  color: #fff;
+  border-radius: 100px;
+  padding: 0;
+  line-height: 59px;
+  border: 0;
+  outline: 0;
+  /*height: 59px;*/
+  min-width: 270px;
+  font-size: 24px;
+  text-align: center;
+}
+.btn-primary:hover {
+  background-color: #F2B116;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background-color: #F2F2F2;
+  color: #343434;
+  border-radius: 100px;
+  padding: 0;
+  line-height: 59px;
+  border: 0;
+  outline: 0;
+  /*height: 59px;*/
+  min-width: 270px;
+  font-size: 24px;
+  text-align: center;
+  font-size: 24px;
+}
+.btn-secondary:hover {
+  background-color: #F2B116;
+  color: #ffffff;
+}
+
+body {
+  font-family: "Source Sans Pro";
+}
+
+.heading-1, .dispaly1 {
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.heading-2 {
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.heading-3 {
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.heading-4 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.heading-5 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.bg-tertiary {
+  background-color: #FFF9F2;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* -----------------main navigation----------------*/
+.main-navigation {
+  background-color: #ffffff;
+  border-top: 1px solid #B8B8B8;
+  border-bottom: 1px solid #B8B8B8;
+}
+.main-navigation .navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-navigation .navbar .nav-item .nav-link {
+  font-size: 24px;
+  color: #182C2C;
+  font-weight: 900;
+}
+.main-navigation .navbar .nav-item .nav-link:hover {
+  color: #F2B116;
+}
+.main-navigation .navbar .nav-item .nav-btn {
+  background-color: #DAA10D;
+  color: #fff;
+  border-radius: 100px;
+  padding: 0;
+  line-height: 59px;
+  border: 0;
+  outline: 0;
+  /*height: 59px;*/
+  min-width: 270px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+}
+.main-navigation .navbar .nav-item .nav-btn:hover {
+  background-color: #F2B116;
+  color: #ffffff;
+}
+
+.hero {
+  min-height: 700px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-slider .card {
+  border-radius: 60px;
+}
+.card-slider .card-text h3 {
+  margin-bottom: 50px;
+}
+.card-slider .card-text a {
+  font-size: 28px;
+  color: #707070;
+  text-decoration: none;
+}
+.card-slider .carousel-indicators {
+  position: relative !important;
+  margin: 0;
+  -webkit-column-gap: 100px;
+     -moz-column-gap: 100px;
+          column-gap: 100px;
+}
+.card-slider .carousel-indicators button {
+  font-size: 24px;
+  font-weight: 900;
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  text-transform: capitalize;
+  border-bottom: 5px solid #ffffff;
+  padding: 0 20px 10px;
+  color: #182C2C;
+}
+.card-slider .carousel-indicators .active {
+  border-bottom: 5px solid #F2B116;
+  padding: 0 20px 10px;
+}
+.card-slider .carousel-indicators [data-bs-target] {
+  text-indent: inherit;
+}
+
+.content-textimg .col-text {
+  row-gap: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.content-textimg .img-text .col-text {
+  padding-left: 60px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+.content-textimg .text-img .col-text {
+  padding-right: 60px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.apps-preview {
+  margin-bottom: 200px;
+}
+.apps-preview .btn {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.apps-preview .badge-download {
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+}
+
+.brand-partner {
+  background-color: #F8F8F8;
+  padding: 100px 0;
+}
+.brand-partner .logo-partner {
+  -webkit-column-gap: 13px;
+     -moz-column-gap: 13px;
+          column-gap: 13px;
+}
+.brand-partner .logo-partner .card {
+  border-radius: 40px;
+  border: 2px solid #F2B116;
+  height: 193px;
+}
+.brand-partner .logo-partner .card img {
+  height: 154px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}

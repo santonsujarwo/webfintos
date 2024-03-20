@@ -1,0 +1,317 @@
+/*Width*/
+$sm : 576px;
+$md : 768px;
+$lg : 992px;
+$xl : 1200px;
+$xxl : 1400px;
+/*end Width*/
+
+
+.font-semibold{
+    /*font-weight: $semibold;*/
+}
+.font-bold{
+    /*font-weight: $bold;*/
+}
+.separator-line{
+    width: 100%;
+    height: 5px;
+    /*background-color: $primary;*/
+}
+
+
+/* max-width */
+.max-w-sm{
+    max-width: $sm;
+}
+.max-w-md{
+    max-width: $md;
+}
+.max-w-lg{
+    max-width: $lg;
+}
+.max-w-xl{
+    max-width: $xl;
+}
+.max-w-xxl{
+    max-width: $xxl;
+}
+/* end max-width */
+
+/* border */
+.border-primary{
+    /*border-color: $primary !important;*/
+}
+.border-1{
+    border-width: 1px;
+}
+.border-solid{
+    border-style: solid;
+}
+/* end border */
+
+/* box-style */
+.box-style-1{
+   /* background-color: $tertiary;*/
+    width: 100%;
+    height: 100%;
+
+    .heading{
+        /*font-weight: $bold;*/
+        font-size: 2rem;
+        &:first-letter{
+            /*color: $primary;*/
+            font-size: 2.5rem;
+        }
+    }
+    .description{
+        /*color: $txt-secondary;*/
+    }
+}
+
+.box-style-2{
+    overflow: hidden;
+    position: relative;
+    /*background-color: $white;*/
+    border-bottom: 20px solid $primary;
+    height: 100%;
+
+    .img-person-wrapper{
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        @media(max-width: $md){
+            height: 350px;
+        }
+        .img-person{
+            display: block;
+            width: 100%;
+        }
+    }
+    .box-layer{
+        background-color: rgba($primary, .75);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        .contact-social-media{
+            display: inline-block;
+            img{
+                width: 24px;
+                height: 24px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .contact-email{
+            display: block;
+            a{
+                color: $white;
+                text-decoration: none;
+            }
+            img{
+                width: 24px;
+                height: 24px;
+                display: inline-block;
+                margin-right: 10px;
+            }
+        }
+    }
+    .box-content{
+        position: relative;
+        padding: 20px;
+
+        .person-name{
+            @extend .heading-4;
+            @extend .fw-bold;
+        }
+        .person-position{
+            @extend .heading-5;
+            @extend .fw-bold;
+            // @extend .text-secondary-2;
+        }
+        .person-description{
+            // @extend .text-secondary-2;
+        }
+    }
+}
+.box-style-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .box-item{
+        width: calc(100% / 2 - 20px);
+        background-color: $tertiary;
+        margin: 10px 0;
+        padding: 20px;
+        border-radius: 2rem;
+    }
+    .box-item-layer{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.box-style-4{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    //@extend .max-w-lg;
+    .box-item{
+        width: calc(100% / 3 - 20px);
+        margin: 10px;
+        text-align: center;
+
+        .img-person-wrapper{
+            height: 343px;
+            width: 100%;
+            overflow: hidden;
+
+            .img-person{
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+}
+/* end box-style */
+
+/* components */
+.link-text{
+    /*color: $txt-secondary;*/
+    text-decoration: none;
+}
+.play-btn{
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    .play-btn-circle-out{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: $primary;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .play-btn-circle-in{
+            width: 80%;
+            height: 80%;
+            border: 1px solid $white;
+            border-radius: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .play-btn-triangle{
+                width: 0;
+                height: 0;
+                border-top: 15px solid transparent;
+                border-left: 20px solid $white;
+                border-bottom: 15px solid transparent;
+                margin-left: 5px;
+            }
+
+        }
+    }
+}
+.icon-block-32{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 60%;
+}
+.footer-subscribe form{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 100%;
+    overflow: hidden;
+    border: 2px solid rgba($txt-secondary, .8);
+    border-radius: 10px;
+    justify-content: space-between;
+    input{
+        border: none;
+        outline: none;
+        width: 70%;
+        padding: 2px;
+    }
+    button{
+        border: none;
+        outline: none;
+        background-color: $primary;
+        width: 27%;
+        padding: 2px;
+        border-radius: 10px;
+        color: $white;
+        font-weight: $bold;
+    }
+}
+.no-underline{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+.bg-stretch{
+    position: relative;
+    overflow: hidden;
+  
+    .container,
+    .row{
+        position: relative;
+        z-index: 2;
+    }
+    .bg-stretch-left{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        left: 0;
+        z-index: 1;
+
+        &::before{
+            background-color: inherit;
+            content: " ";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: -100%;
+            top: 0;
+            z-index: 1;
+        }
+    }
+    .bg-stretch-right{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        right: 0;
+        z-index: 1;
+        &::after{
+            background-color: inherit;
+            content: " ";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            right: -100%;
+            top: 0;
+            z-index: 1;
+        }
+    }
+    
+}
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+/* end components */

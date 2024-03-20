@@ -5,94 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-<section id="contact-us-1">
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1>Contact Us</h1>
-                </div>
-            </div><!--row-->
-        </div><!--container-->
-    </div><!--container-fluid-->
-</section><!--#contact-us-1-->
+<header class="site-header"><!--[start:site header]-->
+  <div class="brand py-3"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99px" /></div>
+  <div class="main-navigation px-3">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav align-items-center w-100 justify-content-between">
+            <li class="nav-item ">
+              <a class="nav-link text-uppercase p-0"href="#">Our Divisions</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-uppercase p-0" href="#">About Fintos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase p-0" href="#">For Partners</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-uppercase p-0" href="#">Careers</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-uppercase p-0" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-btn" href="#">Fitness Financial Hub</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header><!--[end: site header]-->    
+<section class="py-100 bg-image" 
+    style="background-image: url('./assets/images/contactus/contactus1-01.png'); width: 100%; height: 600px; background-repeat: no-repeat; background-size: cover;">
+    <div class="container">
+        <div class="row justify-content-center page-heading pt-5">
+            <div class="col-12">
+                <h1 class="heading-1 text-center text-white fw-extrabold">Contact Us</h1>
+            </div>
+        </div><!--row-->
+    </div><!--container-->
+</section>
 
-<section id="contact-us-2">
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <img src="./assets/images/contactus/phone-call.png" class="img-fluid block mx-auto" alt="">
-                    <h2>Tel</h2>
-                    <p>+603 8089 0777</p>
+<section class="py-100 bg-tertiary">
+    <div class="container">
+        <div class="row justify-content-center gap-3">
+            <div class="col-3">
+                <div class="card bg-white rounded py-5 px-3 text-center justify-content-center align-items-center h-100">
+                  <img src="./assets/images/contactus/hexa-phone.svg" class="icon-block-32 text-center" width="189" alt="">
+                  <h2 class="heading-3 fw-bold my-3">Tel</h2>
+                  <p>+603 8089 0777</p>
                 </div>
-                <div class="col-4">
-                    <img src="./assets/images/contactus/home.png" class="img-fluid block mx-auto" alt="">
-                    <h2>Address</h2>
-                    <p>Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
+            </div>
+            <div class="col-3">
+              <div class="card bg-white rounded py-5 px-3 text-center justify-content-center align-items-center h-100">
+                <img src="./assets/images/contactus/hexa-home.svg" class="icon-block-32 text-center" width="189" alt="">
+                <h2 class="heading-3 fw-bold my-3">Address</h2>
+                <p>Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
+              </div>
+            </div>
+                <div class="col-3">
+                  <div class="card bg-white rounded py-5 px-3 text-center justify-content-center align-items-center h-100">
+                    <img src="./assets/images/contactus/hexa-email.svg" class="icon-block-32 text-center" width="189" alt="">
+                    <h2 class="heading-3 fw-bold my-3">Email</h2>
+                    <p>support@fintos.com.my</p>
+                  </div>  
                 </div>
-                    <div class="col-4">
-                        <img src="./assets/images/contactus/mail.png" class="img-fluid block mx-auto" alt="">
-                        <h2>Email</h2>
-                        <p>support@fintos.com.my</p>
-                    </div>
-            </div><!--row-->
-        </div><!--container-->
-    </div><!--container-fluid-->
-</section><!--#contact-us-2-->
+        </div><!--row-->
+    </div><!--container-->
+</section>
 
-<section id="contact-us-3">
-    <div class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2>Enquiry Form</h2>
-                </div>
-            </div><!--row-->
-            <div class="form-contact-wrapper">
-                <div class="row">
-                    <div class="col-12">
-                        <h3>Enter your detail below.</h3>
-                    </div>
-                </div>
-                <form action="" method="" class="row">
-                    <div class="col-6">
-                        <label for="contact-first-name" class="form-label">First Name</label>
-                        <input type="text" class="form-control rounded-pill" id="contact-first-name">
-                    </div>
-                    <div class="col-6">
-                        <label for="contact-last-name" class="form-label">Last Name</label>
-                        <input type="text" class="form-control rounded-pill" id="contact-last-name">
-                    </div>
-                    <div class="col-6">
-                        <label for="contact-contact-no" class="form-label">Contact No</label>
-                        <input type="text" class="form-control rounded-pill" id="contact-contact-no">
-                    </div>
-                    <div class="col-6">
-                        <label for="contact-email" class="form-label">Email</label>
-                        <input type="email" class="form-control rounded-pill" id="contact-email">
-                    </div>
-                    <div class="col-12">
-                        <label for="contact-subject" class="form-label">Subject</label>
-                        <input type="text" class="form-control rounded-pill" id="contact-subject">
-                    </div>
-                    <div class="col-12">
-                        <label for="contact-message" class="form-label">Message</label>
-                        <textarea class="form-control rounded" id="contact-message" rows="3"></textarea>
-                    </div>
-                    <div class="col-4 offset-8">
-                        <button type="submit" class="btn btn-secondary block w-100">Submit</button>
-                    </div>
-                </form>
-            </div><!--form-contact-wrapper-->
+<section class="py-100 bgtertiary">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="heading-3 text-center mt-5 mb-5 fw-bold">Enquiry Form</h2>
+      </div>
+    </div><!--row-->
+    <div class="form-contact-wrapper w-100 max-w-xl mx-auto bg-tertiary p-5 rounded-3 shadow-sm bg-body">
+      <div class="row">
+        <div class="col-12 mb-5">
+          <h3 class="heading-4 font-bold">Enter your detail below.</h3>
+        </div>
+      </div>
+      <form action="" method="" class="row">
+      <div class="col-6 mb-4">
+        <label for="contact-first-name" class="form-label">First Name</label>
+        <input type="text" class="form-control rounded-pill" id="contact-first-name">
+      </div>
+      <div class="col-6 mb-4">
+        <label for="contact-last-name" class="form-label">Last Name</label>
+        <input type="text" class="form-control rounded-pill" id="contact-last-name">
+      </div>
+      <div class="col-6 mb-4">
+        <label for="contact-contact-no" class="form-label">Contact No</label>
+        <input type="text" class="form-control rounded-pill" id="contact-contact-no">
+      </div>
+      <div class="col-6 mb-4">
+        <label for="contact-email" class="form-label">Email</label>
+        <input type="email" class="form-control rounded-pill" id="contact-email">
+      </div>
+      <div class="col-12 mb-4">
+        <label for="contact-subject" class="form-label">Subject</label>
+        <input type="text" class="form-control rounded-pill" id="contact-subject">
+      </div>
+      <div class="col-12 mb-4">
+        <label for="contact-message" class="form-label">Message</label>
+        <textarea class="form-control rounded" id="contact-message" rows="4"></textarea>
+      </div>
+      <div class="col-4 offset-8">
+        <button type="submit" class="btn btn-primary d-inline-block w-100">Submit</button>
+      </div>
+    </form>
+  </div><!--form-contact-wrapper-->
+</div><!--container-->
+</section>
 
-        </div><!--container-->
-    </div><!--container-fluid-->
-</section><!--#contact-us-3-->
-
-<section id="contact-us-4">
+<section>
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 ratio ratio-21x9">
@@ -101,7 +136,54 @@
         </div>
     </div><!--container-fluid-->
 </section><!--#contact-us-4-->
-
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+<footer class="site-footer py-5">
+  <div class="container">
+     <div class="row">
+      <div class="col-md-3 text-start p-0">
+        <img src="assets/images/logo-fintos-footer.png" alt="fintos" class="img-fluid" />
+        <p><i class="heading-4">Your Key to Financial Freedom</i></p>
+      </div>
+      <div class="col-md-3 p-0">
+        <h4 class="heading-3 fw-extrabold">About Fintos</h4>
+        <nav>
+            <ul class="list-unstyled">
+              <li><a href="#">Divisions</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Fintos Financial Hub</a></li>
+            </ul>
+        </nav>
+      </div>
+      <div class="col-md-2 p-0">
+        <h4 class="heading-3 fw-extrabold">Legal</h4>
+        <nav>
+            <ul class="list-unstyled">
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookies</a></li>
+            </ul>
+        </nav>
+      </div>
+      <div class="col-md-4 text-end justify-content-end p-0">
+        <h4 class="heading-4 fw-extrabold">Follow Us</h4>
+        <nav class="socialmedia">
+          <ul class="d-flex list-unstyled justify-content-end">
+            <li><a href="#"><img src="assets/images/facebook.png" alt="fb" /></a></li>
+            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" /></a></li>
+            <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" /></a></li>
+          </ul>
+        </nav>
+        <div class="subscribe">
+          <div class="form-control d-flex flex-row">
+            <input type="email" class="form-control border-0 p-0" id="" placeholder="Enter your email to join our mailing list">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+      </div>
+     </div>
+  </div>
+</footer>
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

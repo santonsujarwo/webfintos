@@ -9,32 +9,38 @@
 </head>
 <body>
 <header class="site-header"><!--[start:site header]-->
-  <div class="brand py-3"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99px" /></div>
+  <div class="container-fluid p-0 position-relative overflow-hidden">
+    <div class="btn btn-toggle position-absolute text-uppercase heading-3 txt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <img src="./assets/images/burger-bar.svg" alt="nav" width="40" />Menu
+    </div>
+    <div class="brand py-3"><a href="index.html"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99" /></a>
+    </div>
+  </div>  
   <div class="main-navigation px-3">
     <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!--<button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button>-->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav align-items-center w-100 justify-content-between">
             <li class="nav-item ">
               <a class="nav-link text-uppercase p-0"href="#">Our Divisions</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="#">About Fintos</a>
+              <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase p-0" href="#">For Partners</a>
+              <a class="nav-link text-uppercase p-0" href="forPartners.html">For Partners</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="#">Careers</a>
+              <a class="nav-link text-uppercase p-0" href="careers.html">Careers</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="#">Contact Us</a>
+              <a class="nav-link text-uppercase p-0" href="contactUs.html">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-btn" href="#">Fitness Financial Hub</a>
+              <a class="nav-link nav-btn" href="financialHub.html">Fitness Financial Hub</a>
             </li>
           </ul>
         </div>
@@ -42,119 +48,174 @@
     </nav>
   </div>
 </header><!--[end: site header]-->
-<section class="py-100 bg-image" 
-    style="background-image: url('./assets/images/forpartners/forpartner1-01.png'); width: 100%; height: 500px; background-repeat: no-repeat; background-size: cover;">
+<section class="py-100 bgtertiary hero-heading" 
+    style="background-image: url('./assets/images/aboutus/aboutus1-01-01.png'); width: 100%; background-repeat: no-repeat; background-size: cover;">
     <div class="container">
-        <div class="row justify-content-center page-heading pt-5">
-            <div class="col-12">
-                <h1 class="heading-1 text-center txt-white fw-extrabold">For Partners</h1>
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <h1 class="heading-2 text-center txt-white fw-bold mb-4">For Partners</h1>
+                <img src="./assets/images/down-chevron-white.svg" alt="chevron" width="65" />
             </div>
         </div><!--row-->
     </div><!--container-->
-</section> 
+</section>
 
 
 <section>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-10 text-center">
-                <h2 class="heading-2 fw-bold txt-primary mb-5">Unlock a Bright Future with Us</h2>
+            <div class="col-12 col-sm-11 col-md-10 text-center">
+                <h2 class="heading-2 fw-bold txt-primary mb-5">Your industry is our expertise. Capitalize on our know-how.</h2>
                 <p class="heading-5">
-                    At Fintos, our mission is to create a world where financial empowerment is frictionless. We are actively seeking talented and friendly individuals to join us on this transformative journey. Would you be a good fit?
+                  We specialize and innovate in your industry, leveraging our expertise to drive discovery and growth. Our technology platforms empower you to enhance your competitiveness, ensuring top performance and delivering exceptional customer experiences. Additionally, we have the capability to configure and leverage our loan origination system for mortgage business rules, enabling us to help expedite performance for our clients.
                 </p>
-                <a href="#" class="btn btn-lg btn-secondary rounded-pill">Be a part of fintosian</a>
+                <div class="row my-5">
+                  <div class="col-md-6 mb-5">
+                    <div class="card border-0 bgtertiary rounded-5 p-5 text-center">
+                      <span class="heading-4 fw-bold">Fintech</span>
+                      <h4 class="heading-3 fw-bold txt-primary">Financial Servies</h4>
+                      <p class="description">We help institutional players stay agile and relevant, making financial services accessible.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-5">
+                    <div class="card border-0 bgtertiary rounded-5 p-5 text-center">
+                      <span class="heading-4 fw-bold">Fintech</span>
+                      <h4 class="heading-3 fw-bold txt-primary">Financial Servies</h4>
+                      <p class="description">We help institutional players stay agile and relevant, making financial services accessible.</p>
+                    </div>
+                  </div>
+                </div>
+                <hr class="separator-line" />
             </div>
         </div><!--row-->
-        <div class="text-center my-5">
-            <h3 class="heading-3 fw-bold mb-5">A place where everyone belongs, thrives, and grows.</h3>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="bgtertiary p-5 h-100">
-                        <p class="heading-4 fw-bold text-start">Our business opportunity is massive, and growing.</p>
-                    </div>
+        <div class="podcast text-center my-5">
+            <h3 class="heading-3 fw-bold mb-5">If you are a...</h3>
+            <div class="col-md-10 mx-auto">
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-4">
+                  <a class="btn btn-pill d-flex align-items-center justify-content-center" href="#">
+                      <div class="play-btn">
+                        <span class="play-btn-circle-out">
+                          <span class="play-btn-circle-in">
+                            <span class="play-btn-triangle"> &nbsp;</span>
+                          </span>
+                        </span>
+                      </div>
+                      Real Estate Specialist
+                  </a>
                 </div>
-                <div class="col-md-6 mb-4">
-                    <div class="bgtertiary p-5 h-100">
-                        <p class="heading-4 fw-bold text-start">
-                            Each role at Fintos presents a unique opportunity to make a lasting impact. Our focus is on developing a transformative collaboration ecosystem that redefines financial accessibility.
-                        </p>
-                    </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                  <a class="btn btn-pill d-flex align-items-center justify-content-center" href="#">
+                      <div class="play-btn">
+                        <span class="play-btn-circle-out">
+                          <span class="play-btn-circle-in">
+                            <span class="play-btn-triangle"> &nbsp;</span>
+                          </span>
+                        </span>
+                      </div>
+                      Real Estate Specialist
+                  </a>
                 </div>
-                <div class="col-md-6">
-                    <div class="bgtertiary p-5 h-100">
-                        <p class="heading-4 fw-bold text-start">
-                            What makes us great? Our People.
-                        </p>
-                    </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                  <a class="btn btn-pill d-flex align-items-center justify-content-center" href="#">
+                      <div class="play-btn">
+                        <span class="play-btn-circle-out">
+                          <span class="play-btn-circle-in">
+                            <span class="play-btn-triangle"> &nbsp;</span>
+                          </span>
+                        </span>
+                      </div>
+                      Real Estate Specialist
+                  </a>
                 </div>
-                <div class="col-md-6">
-                    <div class="bgtertiary p-5 h-100">
-                        <p class="heading-4 fw-bold text-start">
-                            Our people play a pivotal role in ensuring a highly skilled, motivated, and engaged workforce. When you join us, be prepared to learn new skills, find motivation, receive recognition, push your limits, and discover inspiration.
-                        </p>
-                    </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                  <a class="btn btn-pill d-flex align-items-center justify-content-center" href="#">
+                      <div class="play-btn">
+                        <span class="play-btn-circle-out">
+                          <span class="play-btn-circle-in">
+                            <span class="play-btn-triangle"> &nbsp;</span>
+                          </span>
+                        </span>
+                      </div>
+                      Real Estate Specialist
+                  </a>
                 </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                  <a class="btn btn-pill d-flex align-items-center justify-content-center" href="#">
+                      <div class="play-btn">
+                        <span class="play-btn-circle-out">
+                          <span class="play-btn-circle-in">
+                            <span class="play-btn-triangle"> &nbsp;</span>
+                          </span>
+                        </span>
+                      </div>
+                      Real Estate Specialist
+                  </a>
+                </div>
+              </div>
+              <div class="row text-center my-5">
+                <div class="container">
+                  <h3 class="fw-bold heading-3">This is for you.</h3>
+                  <a href="#" class="btn btn-primary">Work wit us</a>
+                </div>
+              </div>
             </div>    
         </div>
     </div><!--container-->
 </section><!--#for-partners-2-->
 
-<section class="bgtertiary py-100">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h3 class="heading-3 fw-bold text-center m-5">Open Positions</h3>
-                <p class="heading-4">Join our dynamic team and let's create amazing things together!</p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-10">
-                <div class="row mb-5">
-                    <div class="col-12 col-md-4 mb-3">
-                        <div class="card-person border-0">
-                            <div class="img-person-wrapper">
-                                <img src="./assets/images/forpartners/positions-1.png" class="img-person" alt="">
-                            </div>
-                            <div class="box-content text-center">
-                                <h3 class="person-name">Financial Advisor</h3>
-                                <p class="person-position">Senior Finance Advisor</p>
-                            </div>
-                        </div><!--box-style-2-->
-                    </div>
-                    <div class="col-12 col-md-4 mb-3">
-                        <div class="card-person border-0">
-                            <div class="img-person-wrapper">
-                                <img src="./assets/images/forpartners/positions-1.png" class="img-person" alt="">
-                            </div>
-                            <div class="box-content text-center">
-                                <h3 class="person-name">Sales</h3>
-                                <p class="person-position">Sales & Business Development Sales Development Representative</p>
-                            </div>
-                        </div><!--box-style-2-->
-                    </div>
-                    <div class="col-12 col-md-4 mb-3">
-                        <div class="card-person border-0">
-                            <div class="img-person-wrapper">
-                                <img src="./assets/images/forpartners/positions-1.png" class="img-person" alt="">
-                            </div>
-                            <div class="box-content text-center">
-                                <h3 class="person-name">Marketing</h3>
-                                <p class="person-position">Marketing Lead Content Strategist</p>
-                            </div>
-                        </div><!--box-style-2-->
-                    </div>
-                </div> 
-                <div class="row text-center align-items-center justify-content-center">
-                    <div class="container">
-                        <h2 class="heading-3 fw-extrabold mb-5">Unable to find the right position for you?</h2>
-                        <p class="heading-4">If you are interested in a role not listed here, feel free to submit your details through our application form.</p>
-                        <a href="" class="btn btn-primary mt-4">Submit Your Application</a>
-                    </div>
-                </div>   
-            </div><!--[end:col-10]-->
-        </div>    
-    </div><!--container-->
-</section><!--#about-us-3-->
+<section class="brand-partner">
+  <div class="container">
+    <div class="col-10 mb-5 text-center mx-auto">
+      <h4 class="heading-4">We extend our business capabilities through a powerful ecosystem of professionals and innovators. <strong>Some of our renowned industry partners.</strong></h4>
+    </div>
+
+    <div class="row logo-partner mb-5 pb-5"><!--[logo-partner]-->
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/setia-brand.png" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/nctgroup-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>  
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/nadayu-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div> 
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/sdb-brand.jpg" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/IOI-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/jakel-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/hck-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/kohata-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/sunlife-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/revol-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/oneworld-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/creditbureau-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/portalmyazzahra-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+    </div><!--[end: logo-partner]-->
+    <div class="w-100 text-center mt-5">
+      <a class="" href="#">Be our affiliate partners</a>
+    </div>
+  </div>
+</section>
 
 <footer class="site-footer py-5">
   <div class="container">
@@ -205,5 +266,22 @@
   </div>
 </footer>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>

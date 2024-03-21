@@ -13,32 +13,38 @@
     
 
 <header class="site-header"><!--[start:site header]-->
-  <div class="brand py-3"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99px" /></div>
+  <div class="container-fluid p-0 position-relative overflow-hidden">
+    <div class="btn btn-toggle position-absolute text-uppercase heading-3 txt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <img src="./assets/images/burger-bar.svg" alt="nav" width="40" />Menu
+    </div>
+    <div class="brand py-3"><a href="index.html"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99" /></a>
+    </div>
+  </div>  
   <div class="main-navigation px-3">
     <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!--<button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button>-->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav align-items-center w-100 justify-content-between">
             <li class="nav-item ">
               <a class="nav-link text-uppercase p-0"href="#">Our Divisions</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="#">About Fintos</a>
+              <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase p-0" href="#">For Partners</a>
+              <a class="nav-link text-uppercase p-0" href="forPartners.html">For Partners</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="#">Careers</a>
+              <a class="nav-link text-uppercase p-0" href="careers.html">Careers</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="#">Contact Us</a>
+              <a class="nav-link text-uppercase p-0" href="contactUs.html">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-btn" href="#">Fitness Financial Hub</a>
+              <a class="nav-link nav-btn" href="financialHub.html">Fitness Financial Hub</a>
             </li>
           </ul>
         </div>
@@ -46,7 +52,7 @@
     </nav>
   </div>
 </header><!--[end: site header]-->
-<section class="hero d-flex flex-row position-relative" style="background: url(assets/images/homepage/homepage-banner.png) no-repeat;  background-size: cover;"><!--[start:section hero]-->
+<section class="hero d-flex flex-row position-relative" style="background: url(assets/images/homepage/homepage-banner.png) no-repeat;  background-size: cover; background-position: bottom;"><!--[start:section hero]-->
   <div class="p-5 mb-4">
     <div class="container py-5">
       <h1 class="heading-1 fw-extrabold">Reinventing Financial Industries</h1>
@@ -54,20 +60,20 @@
     </div>
   </div>  
 </section><!--[end:section hero]-->
-<section class="divider margintop-overlap"><span>&nbsp;</span></section>
-<section class="bg-tertiary py-100"><!--[start: section featured]-->
+
+<section class="bg-tertiary margintop-overlap py-100"><!--[start: section featured]-->
   <div class="container">
     <div class="row justify-content-center page-heading pt-5">
-      <div class="col-8 text-center">
+      <div class="col-12 col-lg-8 text-center">
         <p class="heading-3 fw-extrabold subtitle mb-5 pb-5">Fintos revolutionizes finance by empowering developers, agencies, and users with innovative, technology-led solutions, transforming how financial services are accessed and experienced.</p>
         <h2 class="heading-2 fw-extrabold maintitle text-center">See what we're made of.</h2>
       </div>
     </div>
   </div>
   <div class="container py-5">
-    <div class="row justify-content-center card-slider mt-3"><!--[start: card-slider]-->
+    <div class="row justify-content-center card-slider mt-3 d-none"><!--[start: card-slider]-->
       <div class="card"><!--[start: card]-->
-        <div class="carousel-indicators m-0 py-5">
+        <div class="carousel-indicators overflow-hidden m-0 py-5">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">advisory</button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">Financing</button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 2">Technology</button>
@@ -161,23 +167,112 @@
   </div>
 </section><!--[end: section featured]-->
 
+<div class="container">
+  <div class="row">
+    
+
+<div id="carousel-home" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">Advisory</button>
+    <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1" aria-label="Slide 2">Financing</button>
+    <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2" aria-label="Slide 3">Technology</button>
+    <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="3" aria-label="Slide 3">Property</button>
+    <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="4" aria-label="Slide 3">Academy</button>
+  </div>
+  <div class="carousel-inner">
+
+    <div class="carousel-item active" data-bs-interval="10000">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img src="./assets/images/homepage/slider/Fintos-Finance.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="col-12 col-md-8">
+          <h2>Navigation Better Financial Moves #1</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam eius repudiandae minima perspiciatis consequatur praesentium doloribus sed, deleniti laboriosam recusandae porro voluptate ratione corporis accusamus et nemo aliquam. Ratione pariatur, ipsum provident delectus ad quae commodi, error quisquam esse consectetur, vero adipisci illo. Odio vitae obcaecati quaerat dolores iste.</p>
+          <a href="#">Fintos Advice</a>
+        </div>
+      </div><!--row-->
+    </div><!--carousel-item-->
+    <div class="carousel-item" data-bs-interval="10000">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img src="./assets/images/homepage/slider/Fintos-Finance.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="col-12 col-md-8">
+          <h2>Navigation Better Financial Moves #2</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam eius repudiandae minima perspiciatis consequatur praesentium doloribus sed, deleniti laboriosam recusandae porro voluptate ratione corporis accusamus et nemo aliquam. Ratione pariatur, ipsum provident delectus ad quae commodi, error quisquam esse consectetur, vero adipisci illo. Odio vitae obcaecati quaerat dolores iste.</p>
+          <a href="#">Fintos Advice</a>
+        </div>
+      </div><!--row-->
+    </div><!--carousel-item-->
+    <div class="carousel-item" data-bs-interval="10000">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img src="./assets/images/homepage/slider/Fintos-Finance.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="col-12 col-md-8">
+          <h2>Navigation Better Financial Moves #3</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam eius repudiandae minima perspiciatis consequatur praesentium doloribus sed, deleniti laboriosam recusandae porro voluptate ratione corporis accusamus et nemo aliquam. Ratione pariatur, ipsum provident delectus ad quae commodi, error quisquam esse consectetur, vero adipisci illo. Odio vitae obcaecati quaerat dolores iste.</p>
+          <a href="#">Fintos Advice</a>
+        </div>
+      </div><!--row-->
+    </div><!--carousel-item-->
+    <div class="carousel-item" data-bs-interval="10000">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img src="./assets/images/homepage/slider/Fintos-Finance.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="col-12 col-md-8">
+          <h2>Navigation Better Financial Moves #4</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam eius repudiandae minima perspiciatis consequatur praesentium doloribus sed, deleniti laboriosam recusandae porro voluptate ratione corporis accusamus et nemo aliquam. Ratione pariatur, ipsum provident delectus ad quae commodi, error quisquam esse consectetur, vero adipisci illo. Odio vitae obcaecati quaerat dolores iste.</p>
+          <a href="#">Fintos Advice</a>
+        </div>
+      </div><!--row-->
+    </div><!--carousel-item-->
+    <div class="carousel-item" data-bs-interval="10000">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img src="./assets/images/homepage/slider/Fintos-Finance.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="col-12 col-md-8">
+          <h2>Navigation Better Financial Moves #5</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam eius repudiandae minima perspiciatis consequatur praesentium doloribus sed, deleniti laboriosam recusandae porro voluptate ratione corporis accusamus et nemo aliquam. Ratione pariatur, ipsum provident delectus ad quae commodi, error quisquam esse consectetur, vero adipisci illo. Odio vitae obcaecati quaerat dolores iste.</p>
+          <a href="#">Fintos Advice</a>
+        </div>
+      </div><!--row-->
+    </div><!--carousel-item-->
+
+  </div><!--carousel-inner-->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel-home" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div><!--row-->
+</div><!--container-->
+
 <section class="content-textimg my-5 py-5"><!--[start:content-txtimg]-->
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-11 mb-5">
         <div class="row align-items-center img-text">
-          <div class="col-md-5 col-img"><img src="assets/images/homepage/img-thumb-fintostech2.png" alt="fintos" class="img-fluid" /></div>
-          <div class="col-md-7 col-text">
+          <div class="col-12 col-md-5 col-img"><img src="assets/images/homepage/img-thumb-fintostech2.png" alt="fintos" class="img-fluid" /></div>
+          <div class="col-12 mt-3 mt-sm-0 col-md-7 col-text">
             <h3 class="heading-3 fw-extrabold">We help businesses and institutions make smarter decisions and build personalized experiences with their customers…</h3>
             <a href="#" class="btn btn-secondary">Learn more</a>
           </div>
         </div>
         <div class="row align-items-center text-img text-end">
-          <div class="col-md-7 col-text">
+          <div class="col-12 order-2 order-md-1 col-md-7 col-text">
             <h3 class="heading-3 fw-extrabold">and empower individuals to take control of their finances and access financial services.</h3>
             <a href="#" class="btn btn-secondary">Learn more</a>
           </div>
-          <div class="col-md-5 col-img"><img src="assets/images/homepage/img-thumb-fintostech2.png" alt="fintos" class="img-fluid" /></div>
+          <div class="col-12 order-1 order-md-2 col-md-5 col-img"><img src="assets/images/homepage/img-thumb-fintostech2.png" alt="fintos" class="img-fluid" /></div>
           
         </div>
       </div>
@@ -209,21 +304,57 @@
    
 <section class="brand-partner">
   <div class="container">
-    <div class="col-10 mb-5 text-center">
+    <div class="col-10 mb-5 text-center mx-auto">
       <h4 class="heading-4">We extend our business capabilities through a powerful ecosystem of professionals and innovators. <strong>Some of our renowned industry partners.</strong></h4>
     </div>
 
     <div class="row logo-partner mb-5 pb-5"><!--[logo-partner]-->
-      <div class="col-3">
-        <div class="card align-items-center justify-content-center"><img src="assets/images/industrypartners/setia-brand.png" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/setia-brand.png" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
       </div>
-      <div class="col-3 ">
-        <div class="card align-items-center justify-content-center"><img src="assets/images/industrypartners/nctgroup-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/nctgroup-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
       </div>  
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/nadayu-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div> 
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/sdb-brand.jpg" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/IOI-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/jakel-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/hck-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/kohata-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/sunlife-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/revol-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/oneworld-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/creditbureau-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 mb-3">
+        <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/portalmyazzahra-brand.png" height="138" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
+      </div>
     </div><!--[end: logo-partner]-->
-     <a href="#">Be our affiliate partners</a>
+    <div class="w-100 text-center mt-5">
+      <a class="btn-link" href="#">Be our affiliate partners</a>
+    </div>
   </div>
 </section>
+
 
 <section class="news-information">
   <div class="container">
@@ -233,9 +364,9 @@
       </div>  
     </div>
     <div class="row justify-content-center card-news">
-      <div class="col-4">
+      <div class="col-12 col-md-4 mb-5">
         <div class="card border-0">
-          <div class="card-body text-center p-0">
+          <div class="card-body text-center p-2">
           <img src="assets/images/thumb-news.svg" alt="thumb" class="img-fluid" />
           <h4 class="heading-4 fw-extrabold">Become a part of the Fintosian</h4>
           <p class="heading-5">Be part of a dynamic team working to unlock opportunities for professional growth, and a supportive work environment that nurtures your talents and skills.</p>
@@ -243,9 +374,9 @@
         </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-md-4 mb-5">
         <div class="card border-0">
-          <div class="card-body text-center p-0">
+          <div class="card-body text-center p-2">
           <img src="assets/images/thumb-news.svg" alt="thumb" class="img-fluid" />
           <h4 class="heading-4 fw-extrabold">Become a part of the Fintosian</h4>
           <p class="heading-5">Be part of a dynamic team working to unlock opportunities for professional growth, and a supportive work environment that nurtures your talents and skills.</p>
@@ -253,9 +384,9 @@
         </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-md-4 mb-5">
         <div class="card border-0">
-          <div class="card-body text-center p-0">
+          <div class="card-body text-center p-2">
           <img src="assets/images/thumb-news.svg" alt="thumb" class="img-fluid" />
           <h4 class="heading-4 fw-extrabold">Become a part of the Fintosian</h4>
           <p class="heading-5">Be part of a dynamic team working to unlock opportunities for professional growth, and a supportive work environment that nurtures your talents and skills.</p>
@@ -265,8 +396,8 @@
       </div>
     </div>
     <div class="row align-items-center img-text">
-      <div class="col-md-5 col-img"><img src="assets/images/homepage/img-thumb-fintosadvice.jpg" alt="fintos" class="img-fluid" /></div>
-      <div class="col-md-7 col-text">
+      <div class="col-12 col-md-5 col-img"><img src="assets/images/homepage/img-thumb-fintosadvice.jpg" alt="fintos" class="img-fluid" /></div>
+      <div class="col-12 col-md-7 col-text">
         <h3 class="heading-3 fw-extrabold">What are your priorities?</h3>
         <p class="heading-3">Talk to our financial advisors to see how FINTOS can support you.</p>
         <a href="#" class="btn btn-secondary">Learn more</a>
@@ -324,5 +455,22 @@
   </div>
 </footer>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>

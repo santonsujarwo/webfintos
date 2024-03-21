@@ -8,40 +8,46 @@
     <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 <body>
- <header class="site-header"><!--[start:site header]-->
-  <div class="brand py-3"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99px" /></div>
+<header class="site-header"><!--[start:site header]-->
+  <div class="container-fluid p-0 position-relative overflow-hidden">
+    <div class="btn btn-toggle position-absolute text-uppercase heading-3 txt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <img src="./assets/images/burger-bar.svg" alt="nav" width="40" />Menu
+    </div>
+    <div class="brand py-3"><a href="index.html"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99" /></a>
+    </div>
+  </div>  
   <div class="main-navigation px-3">
     <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!--<button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button>-->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav align-items-center w-100 justify-content-between">
             <li class="nav-item ">
               <a class="nav-link text-uppercase p-0"href="#">Our Divisions</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="#">About Fintos</a>
+              <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-uppercase p-0" href="#">For Partners</a>
+              <a class="nav-link text-uppercase p-0" href="forPartners.html">For Partners</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="#">Careers</a>
+              <a class="nav-link text-uppercase p-0" href="careers.html">Careers</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="#">Contact Us</a>
+              <a class="nav-link text-uppercase p-0" href="contactUs.html">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-btn" href="#">Fitness Financial Hub</a>
+              <a class="nav-link nav-btn" href="financialHub.html">Fitness Financial Hub</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </div>
-</header><!--[end: site header]-->     
+</header><!--[end: site header]-->    
 <section class="py-100">
     <div class="container">
         <div class="row justify-content-center page-heading pt-5 text-center">
@@ -211,5 +217,22 @@
   </div>
 </footer>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>

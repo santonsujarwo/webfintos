@@ -204,7 +204,7 @@
   padding: 5px 20px;
   border: 0;
   outline: 0;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
 }
 @media (max-width: 1024px) {
@@ -224,9 +224,9 @@
   padding: 5px 20px;
   border: 0;
   outline: 0;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
 }
 @media (max-width: 1024px) {
   .btn-secondary {
@@ -313,36 +313,36 @@ body {
 }
 @media (min-width: 1200px) {
   .heading-1 {
-    font-size: 100px;
+    font-size: 50px;
   }
 }
 
 .heading-2 {
-  font-size: 38px;
+  font-size: 28px;
 }
 @media (min-width: 1200px) {
   .heading-2 {
-    font-size: 60px;
+    font-size: 40px;
   }
 }
 
 .heading-3 {
-  font-size: 24px;
+  font-size: 18px;
   line-height: 28px;
 }
 @media (min-width: 1200px) {
   .heading-3 {
-    font-size: 38px;
+    font-size: 28px;
     line-height: 42px;
   }
 }
 
 .heading-4, .card-person .box-content .person-name, .site-footer a {
-  font-size: 20px;
+  font-size: 16px;
 }
 @media (min-width: 1200px) {
   .heading-4, .card-person .box-content .person-name, .site-footer a {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 
@@ -351,7 +351,7 @@ body {
 }
 @media (min-width: 1200px) {
   .heading-5, .card-person .box-content .person-position, .site-footer .subscribe .btn-primary, .btn-link {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -396,7 +396,7 @@ body {
   padding-bottom: 20px;
 }
 .main-navigation .navbar .nav-item .nav-link {
-  font-size: 24px;
+  font-size: 18px;
   color: #182C2C;
   font-weight: 900;
 }
@@ -415,7 +415,7 @@ body {
   padding: 5px 20px;
   border: 0;
   outline: 0;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   font-weight: 700;
 }
@@ -451,7 +451,7 @@ body {
   margin-bottom: 50px;
 }
 .card-slider .card-text a {
-  font-size: 20px;
+  font-size: 16px;
   color: #707070;
   text-decoration: none;
   margin-top: 140px;
@@ -473,7 +473,7 @@ body {
           justify-content: space-between;
 }
 .card-slider .carousel-indicators button {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 900;
   width: inherit;
   height: inherit;
@@ -516,7 +516,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   display: none;
-  font-size: 20px;
+  font-size: 16px;
 }
 @media (min-width: 768px) {
   #carousel-home .carousel-indicators {
@@ -807,7 +807,7 @@ body {
   padding: 20px;
 }
 .card-person .box-content .person-description {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .separator-line {
@@ -827,7 +827,7 @@ body {
   padding: 5px 20px;
   border: 0;
   outline: 0;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   border: 1px solid #F2B116;
   text-decoration: none;
@@ -836,7 +836,7 @@ body {
           column-gap: 10px;
   height: 50px;
   line-height: 50px;
-  font-size: 20px;
+  font-size: 16px;
   color: #707070;
   position: relative;
 }
@@ -904,6 +904,6 @@ body {
   height: 100vh;
 }
 .modal-dialog .navbar-nav .nav-link {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 900;
 }

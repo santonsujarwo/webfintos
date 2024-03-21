@@ -13,6 +13,7 @@ $red:#D7292E;
 $green:#22AF72;
 $blue:#005D96;
 $maroon:#552E1A;
+$gray: #ECECEC;
 
 /*Width*/
 $sm : 576px;
@@ -31,6 +32,7 @@ $xxl : 1400px;
 .bggreen{ background-color: $green;}
 .bgblue{ background-color: $blue;}
 .bgmaroon{ background-color: $maroon;}
+.bggray{ background-color: $gray;}
 .txt-primary{ color: $primary;}
 .txt-tertiary{ color: $tertiary;}
 .txt-secondary{ color: $secondary};
@@ -42,6 +44,17 @@ $xxl : 1400px;
 .txt-green{ color: $green;}
 .txt-blue{ color: $blue;}
 .txt-maroon{ color: $maroon;}
+
+/*border*/
+.brd-solid{
+    border-style: solid;
+}
+.brd-primary{
+    border-color: $primary;
+}
+.brd-1{
+    border-width: 1px;
+}
 
 /*typography*/
 $sans-serif: "Source Sans Pro";
@@ -184,10 +197,9 @@ body {
     padding-top:100px;
     padding-bottom: 100px;
 }
-.pb-100{
-    padding-bottom: 100px;
+.margintop-overlap{
+    margin-top: -100px;
 }
-
 .divider{ 
     span::after{
     @extend .bgprimary;    
@@ -359,6 +371,62 @@ body {
     //     height: 32px;
     //   }
 }// #carousel-home
+
+.bg-stretch{
+    position: relative;
+    overflow: hidden;
+  
+    .container,
+    .row{
+        position: relative;
+        z-index: 2;
+    }
+    .bg-stretch-left{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        left: 0;
+        z-index: 1;
+        border-radius: 0 50px 50px 0;
+
+
+        &::before{
+            background-color: inherit;
+            content: " ";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: -100%;
+            top: 0;
+            z-index: 1;
+        }
+    }
+    .bg-stretch-right{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        right: 0;
+        z-index: 1;
+        border-radius: 50px 0 0 50px;
+        &::after{
+            background-color: inherit;
+            content: " ";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            right: -100%;
+            top: 0;
+            z-index: 1;
+        }
+    }
+    
+}// .bg-stretch
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
 
 .content-textimg{
     .col-text{

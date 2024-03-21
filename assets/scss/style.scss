@@ -151,7 +151,6 @@ body {
 }
 .heading-2{
     font-size: 38px;
-    line-height: 40px;
     @media(min-width: $xl){
         font-size: 60px;
     }
@@ -296,17 +295,27 @@ body {
 }
 
 #carousel-home{
-    padding: 20px;
-    padding-top: 50px;
-    background-color: $lightgray;
+    padding: 75px 20px;
+    padding-top: 150px;
+    background-color: $white;
     border-radius: 25px;
+    box-shadow: 0px 0px 5px rgba($color: $darkgray, $alpha: .2);
+    @media(max-width: $md){
+        padding: 20px 10px;
+        padding-top: 30px;
+    }
     .carousel-indicators{
         bottom: unset;
-        top: 0;
+        top: 50px;
         background-color: transparent;
-        width: 100%;
-        margin: 0;
+        width: 80%;
+        margin: 0 auto;
         justify-content: space-between;
+        display: none;
+        font-size: 20px;
+        @media(min-width: $md){
+            display: flex;
+        }
     }
     .carousel-indicators [data-bs-target]{
         width: auto;
@@ -315,18 +324,39 @@ body {
         font-weight: $bold;
         padding: 0 10px 5px 10px;
     }
-    button{
+    .carousel-inner{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .label-indicator{
         border-bottom: 2px solid transparent;
         background-color: transparent;
         text-align: left;
         &.active{
-            border-bottom: 5px solid $primary;
+            border-bottom: 3px solid $primary;
         }
+    }
+    button{
+        opacity: 1;
     }
     .carousel-indicators,
     .carousel-inner{
         padding: 0 40px;
+        @media(max-width: $md){
+            padding: 0 20px;
+        }
     }
+    .carousel-control-prev-icon {
+        background-image: url('../images/left-arrow-dark.svg');
+      }
+      .carousel-control-next-icon {
+        background-image: url('../images/right-arrow.svg');
+      }
+    //   .carousel-control-prev-icon,
+    //   .carousel-control-next-icon {
+    //     width: 64px;
+    //     height: 32px;
+    //   }
 }// #carousel-home
 
 .content-textimg{

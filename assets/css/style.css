@@ -251,10 +251,9 @@
 }
 
 .btn-toggle {
-  background-color: #e9e9e9;
   border-radius: 0;
   height: 100%;
-  width: 326px;
+  width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

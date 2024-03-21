@@ -728,4 +728,10 @@ body {
     .modal-content{
         height: 100vh;
     }
+    .navbar-nav{
+        .nav-link{
+            font-size: 60px;
+            font-weight: $extrabold;
+        }
+    }
 }

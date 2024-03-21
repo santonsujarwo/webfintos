@@ -901,3 +901,7 @@ body {
 .modal-dialog .modal-content {
   height: 100vh;
 }
+.modal-dialog .navbar-nav .nav-link {
+  font-size: 60px;
+  font-weight: 900;
+}

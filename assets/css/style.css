@@ -439,6 +439,9 @@ body {
   .hero {
     min-height: 80vh;
   }
+  .hero .heading-1 {
+    max-width: 700px;
+  }
 }
 
 .card-slider .card {
@@ -732,7 +735,6 @@ body {
 .site-footer .subscribe .btn-primary {
   min-width: 150px;
   line-height: 38px;
-  height: 38px;
 }
 
 .card-box {

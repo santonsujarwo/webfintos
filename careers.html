@@ -10,7 +10,7 @@
    <body>
 <header class="site-header"><!--[start:site header]-->
   <div class="container-fluid p-0 position-relative overflow-hidden">
-    <div class="d-lg-none btn btn-toggle position-absolute text-uppercase heading-3 txt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <div class="d-lg-none btn btn-toggle position-absolute text-uppercasetxt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
       <img src="./assets/images/burger-bar.svg" alt="nav" width="40" />
     </div>
     <div class="brand py-3"><a href="index.html"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99" /></a>
@@ -21,8 +21,15 @@
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav align-items-center w-100 justify-content-between">
-            <li class="nav-item ">
-               <a class="nav-link text-uppercase p-0"href="ourDivisions.html">Our Divisions</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-uppercase p-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="ourDivisions.html">Our Divisions</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="ourDivisionsAdvice.html">Our Divisions Advice</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsFinance.html">Our Divisions Finance</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsProperty.html">Our Divisions Property</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsTech.html">Our Divisions Tech</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsAcademy.html">Our Divisions Academy</a></li>
+              </ul>
             </li>
             <li class="nav-item ">
               <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
@@ -44,160 +51,171 @@
       </div>
     </nav>
   </div>
-</header><!--[end: site header]-->    
-<section class="py-100 bgtertiary hero-heading" 
-    style="background-image: url('./assets/images/aboutus/aboutus1-01-01.png'); width: 100%; background-repeat: no-repeat; background-size: cover;">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <h1 class="heading-2 text-center txt-white fw-bold mb-4">Careers</h1>
+</header><!--[end: site header]-->  
+<section class="hero-heading mb-5" 
+    style="background-image: url('./assets/images/careers/careers1-01-01.png'); width: 100%; background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="container pt-4">
+        <div class="row justify-content-center pt-5">
+            <div class="col-12 text-center pt-5">
+                <h1 class="display-4 text-center txt-white fw-bold mb-4">Careers</h1>
                 <img src="./assets/images/down-chevron-white.svg" alt="chevron" width="65" />
             </div>
         </div><!--row-->
     </div><!--container-->
 </section>
-<section id="careers-2" class="py-100">
+<section class="with-divider position-relative my-5 pb-5">
    <div class="container">
       <div class="row">
-         <div class="col-10 text-center mx-auto">
-            <h2 class="heading-2 fw-extrabold txt-primary">Unlock a Bright Future with Us</h2>
-            <p class="heading-4 text-center txt-slategray py-5">At Fintos, our mission is to create a world where financial empowerment is frictionless. We are actively seeking talented and friendly individuals to join us on this transformative journey. Would you be a good fit?</p>
-            <a href="#" class="btn btn-secondary">Be a part of Fintosian <span class="text-primary">></span></a>
+         <div class="col-12 col-md-10 text-center mx-auto">
+            <h2 class="fs-1 fw-extrabold txt-primary"><span class="position-relative bgwhite">Unlock a Bright Future with Us</span></h2>
+            <p class="fs-5 text-center txt-slategray py-5">At Fintos, our mission is to create a world where financial empowerment is frictionless. We are actively seeking talented and friendly individuals to join us on this transformative journey. Would you be a good fit?</p>
+            <a href="#" class="btn btn-secondary btn-lg btn-icon">Be a part of Fintosian <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
          </div>
       </div><!--row-->
    </div><!--container-->
 </section>
 
-<section class="py-100 lightgray">
-   <div class="container">
+<section class="bglightgray py-5">
+   <div class="container my-5">
       <div class="row mb-5">
          <div class="col-12 text-center">
-            <h2 class="heading-3 fw-extrabold ">A place where everyone belongs, thrives, and grows.</h2>
+            <h2 class="fs-2 fw-extrabold ">A place where everyone belongs, thrives, and grows.</h2>
          </div>
       </div><!--row-->
       <div class="row">
          <div class="col-md-6 mb-4">
-            <div class="card bgtertiary p-5 h-100 border-0">
-               <h3 class="heading-4 fw-bold">Our business opportunity is massive, and growing.</h3>
+            <div class="card bgtertiary p-5 h-100 border-0 rounded40">
+               <h3 class="fs-4 fw-bold">Our business opportunity is massive, and growing.</h3>
             </div>
          </div>
          <div class="col-md-6 mb-4">
-            <div class="card bgtertiary p-5 h-100 border-0">
-               <h3 class="heading-4 fw-bold">Each role at Fintos presents a unique opportunity to make a lasting impact. Our focus is on developing a transformative collaboration ecosystem that redefines financial accessibility.</h3>
+            <div class="card bgtertiary p-5 h-100 border-0 rounded40">
+               <h3 class="fs-4 fw-bold">Each role at Fintos presents a unique opportunity to make a lasting impact. Our focus is on developing a transformative collaboration ecosystem that redefines financial accessibility.</h3>
             </div>
          </div>
          <div class="col-md-6 mb-4">
-            <div class="card bgtertiary p-5 h-100 border-0">
-               <h3 class="heading-4 fw-bold">What makes us great? Our People.</h3>
+            <div class="card bgtertiary p-5 h-100 border-0 rounded40">
+               <h3 class="fs-4 fw-bold">What makes us great? Our People.</h3>
             </div>
          </div>
          <div class="col-md-6 mb-4">
-            <div class="card bgtertiary p-5 h-100 border-0">
-               <h3 class="heading-4 fw-bold">Our people play a pivotal role in ensuring a highly skilled, motivated, and engaged workforce. When you join us, be prepared to learn new skills, find motivation, receive recognition, push your limits, and discover inspiration.</h3>
+            <div class="card bgtertiary p-5 h-100 border-0 rounded">
+               <h3 class="fs-4 fw-bold">Our people play a pivotal role in ensuring a highly skilled, motivated, and engaged workforce. When you join us, be prepared to learn new skills, find motivation, receive recognition, push your limits, and discover inspiration.</h3>
             </div>
          </div>
          <div class="col-md-6 mb-4">
-            <div class="card bgtertiary p-5 h-100 border-0">
-               <h3 class="heading-4 fw-bold">Sounds like you?</h3>
+            <div class="card bgtertiary p-5 h-100 border-0 rounded">
+               <h3 class="fs-4 fw-bold">Sounds like you?</h3>
             </div>
          </div>
          <div class="col-md-6 mb-4">
-            <div class="card bgtertiary p-5 h-100 border-0">
-               <h3 class="heading-4 fw-bold">Self-initiated. Growth-mindset. Collaborative. We are actively seeking talented individuals who bring unique skills and behaviors that will help us drive meaningful change, not only within our company and the industry.</h3>
+            <div class="card bgtertiary p-5 h-100 border-0 rounded">
+               <h3 class="fs-4 fw-bold">Self-initiated. Growth-mindset. Collaborative. We are actively seeking talented individuals who bring unique skills and behaviors that will help us drive meaningful change, not only within our company and the industry.</h3>
             </div>
          </div>
       </div><!--row-->
    </div><!--container-->
 </section>
       <!--#careers-3-->
-<section class="py-100 bgtertiary">
-   <div class="container">
-      <div class="row justify-content-center page-heading pt-5">
-         <div class="col-12 text-center">
-            <h2 class="heading-2">Open Positions</h2>
-            <p class="heading-3 fw-extrabold subtitle mt-5 pt-5">Join our dynamic team and let's create amazing things together!</p>
+<section class="bgtertiary py-5">
+   <div class="container my-5">
+      <div class="row justify-content-center page-heading pt-md-5">
+         <div class="col-12 text-center mb-4 pb-4">
+            <h2 class="fs-1 fw-extrabold">Open Positions</h2>
+            <p class="fs-5">Join our dynamic team and let's create amazing things together!</p>
          </div>
          <div class="row">
             <div class="col-md-4 text-center">
-               <div class="img-person-wrapper mb-2">
+               <div class="img-person-wrapper mb-4">
                   <img class="img-person img-fluid" src="./assets/images/careers/image-young-asian-businessman-background.jpg" />
                </div>
-               <h3 class="heading-4 fw-extrabold mb-2">Financial Advisor</h3>
-               <p class="txt-secondary">Senior Finance Advisor</p>
+               <h3 class="fs-4 fw-extrabold my-2">Financial Advisor</h3>
+               <p class="txt-secondary fs-5">Senior Finance Advisor</p>
             </div>
             <div class="col-md-4 text-center">
-               <div class="img-person-wrapper mb-2">
+               <div class="img-person-wrapper mb-4">
                   <img class="img-person img-fluid" src="./assets/images/careers/sharing-tickets.jpg" />
                </div>
-               <h3 class="heading-4 fw-extrabold mb-2">Sales</h3>
-               <p class="txt-secondary">Sales & Business Development Sales Development Representative</p>
+               <h3 class="fs-4 fw-extrabold my-2">Sales</h3>
+               <p class="txt-secondary fs-5">Sales & Business Development Sales Development Representative</p>
             </div>
             <div class="col-md-4 text-center">
-               <div class="img-person-wrapper mb-2">
+               <div class="img-person-wrapper mb-4">
                   <img class="img-person img-fluid" src="./assets/images/careers/image-young-asian-woman-company-worker-glasses-smiling-holding-digital-tablet-standing-white-background.jpg" />
                </div>
-               <h3 class="heading-4 fw-extrabold mb-2">Marketing</h3>
-               <p class="txt-secondary">Marketing Lead Content Strategist</p>
+               <h3 class="fs-4 fw-extrabold my-2">Marketing</h3>
+               <p class="txt-secondary fs-5">Marketing Lead Content Strategist</p>
             </div><!--box-style-4-->
          </div>
          <div class="row">
-            <div class="col-12 text-center mt-5">
-               <h3 class="heading-3 mt-5 mb-5 fw-extrabold">Unable to find the right position for you?</h3>
-                 <p class="text-secondary-2 mb-5">If you are interested in a role not listed here, feel free to submit your details through our application form.</p>
-                 <a href="#" class="btn btn-sm btn-secondary rounded-pill">Submit Your Application</a>
+            <div class="col-12 text-center mt-5 pt-5">
+               <h3 class="fs-2 mt-5 fw-extrabold">Unable to find the right position for you?</h3>
+                 <p class="text-secondary-2 mb-4 fs-4">If you are interested in a role not listed here, feel free to submit your details through our application form.</p>
+                 <a href="#" class="btn btn-primary btn-lg btn-icon">Submit Your Application <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
             </div>
          </div>
       </div><!--row-->
    </div><!--container-->
-</section><!--#careers-4-->
-<footer class="site-footer p-5">
-  <div class="container">
-     <div class="row">
-      <div class="col-md-3 text-start p-0">
-        <img src="assets/images/logo-fintos-footer.png" alt="fintos" class="img-fluid" />
-        <p><i class="heading-4">Your Key to Financial Freedom</i></p>
+</section>
+<div class="divider-bottom-tertiary"><span>&nbsp;</span></div>
+
+<footer class="site-footer pt-5">
+   <div class="container">
+      <div class="row mt-5">
+       <div class="col-md-3 text-center text-lg-start p-md-0">
+         <img src="assets/images/logo-fintos-footer.png" alt="fintos" width="80" class="img-fluid mb-5" />
+         <p><i class="fs-5 fw-bold">Your Key to Financial Freedom</i></p>
+       </div>
+       <div class="col-md-3 p-md-0 text-center text-md-start">
+         <h4 class="fs-3 fw-extrabold">About Fintos</h4>
+         <nav>
+             <ul class="list-unstyled">
+               <li><a href="#">Divisions</a></li>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Career</a></li>
+               <li><a href="#">Contact Us</a></li>
+               <li><a href="#">Fintos Financial Hub</a></li>
+             </ul>
+         </nav>
+       </div>
+       <div class="col-md-2 p-md-0 text-center text-md-start">
+         <h4 class="fs-3 fw-extrabold">Legal</h4>
+         <nav>
+             <ul class="list-unstyled">
+               <li><a href="#">Terms & Conditions</a></li>
+               <li><a href="#">Privacy Policy</a></li>
+               <li><a href="#">Cookies</a></li>
+             </ul>
+         </nav>
+       </div>
+       <div class="col-md-4 text-center text-lg-end justify-content-center justify-content-lg-end p-md-0">
+         <h4 class="fs-4 fw-extrabold">Follow Us</h4>
+         <nav class="socialmedia">
+           <ul class="d-flex list-unstyled justify-content-center justify-content-lg-end">
+             <li><a href="#"><img src="assets/images/facebook.png" alt="fb" width="38" /></a></li>
+             <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" width="38"/></a></li>
+             <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" width="38"/></a></li>
+           </ul>
+         </nav>
+         <div class="subscribe mt-5">
+           <form>
+           <div class="form-control d-flex flex-column flex-lg-row">
+             <input type="email" class="form-control border-0 p-0 text-center text-lg-start py-4 py-md-0 shadow-none" id="" placeholder="Enter your email to join our mailing list.">
+             <button type="submit" class="btn btn-primary">Subscribe</button>
+           </div>
+           </form>
+         </div>
+       </div>
       </div>
-      <div class="col-md-3 p-0">
-        <h4 class="heading-3 fw-extrabold">About Fintos</h4>
-        <nav>
-            <ul class="list-unstyled">
-              <li><a href="#">Divisions</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Career</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Fintos Financial Hub</a></li>
-            </ul>
-        </nav>
-      </div>
-      <div class="col-md-2 p-0">
-        <h4 class="heading-3 fw-extrabold">Legal</h4>
-        <nav>
-            <ul class="list-unstyled">
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Cookies</a></li>
-            </ul>
-        </nav>
-      </div>
-      <div class="col-md-4 text-end justify-content-end p-0">
-        <h4 class="heading-4 fw-extrabold">Follow Us</h4>
-        <nav class="socialmedia">
-          <ul class="d-flex list-unstyled justify-content-end">
-            <li><a href="#"><img src="assets/images/facebook.png" alt="fb" /></a></li>
-            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" /></a></li>
-            <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" /></a></li>
-          </ul>
-        </nav>
-        <div class="subscribe">
-          <div class="form-control d-flex flex-row">
-            <input type="email" class="form-control border-0 p-0" id="" placeholder="Enter your email to join our mailing list">
-            <button type="submit" class="btn btn-primary">Subscribe</button>
-          </div>
-        </div>
-      </div>
-     </div>
-  </div>
-</footer>
+   </div>
+   <div class="copyright bgdarkgray txt-white fs-6 mt-5">
+     <div class="container py-4"> 
+       <div class="col-12 text-center text-md-start">
+         Copyright &copy; 2024 All rights reserved Fintos Venture Group
+       </div>
+     </div>  
+   </div>
+ </footer>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog">

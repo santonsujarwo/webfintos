@@ -10,7 +10,7 @@
 <body>
 <header class="site-header"><!--[start:site header]-->
   <div class="container-fluid p-0 position-relative overflow-hidden">
-    <div class="d-lg-none btn btn-toggle position-absolute text-uppercase heading-3 txt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <div class="d-lg-none btn btn-toggle position-absolute text-uppercasetxt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
       <img src="./assets/images/burger-bar.svg" alt="nav" width="40" />
     </div>
     <div class="brand py-3"><a href="index.html"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99" /></a>
@@ -19,13 +19,17 @@
   <div class="main-navigation px-3">
     <nav class="navbar navbar-expand-lg ">
       <div class="container">
-        <!--<button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>-->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav align-items-center w-100 justify-content-between">
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0"href="#">Our Divisions</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-uppercase p-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="ourDivisions.html">Our Divisions</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="ourDivisionsAdvice.html">Our Divisions Advice</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsFinance.html">Our Divisions Finance</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsProperty.html">Our Divisions Property</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsTech.html">Our Divisions Tech</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsAcademy.html">Our Divisions Academy</a></li>
+              </ul>
             </li>
             <li class="nav-item ">
               <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
@@ -48,126 +52,125 @@
     </nav>
   </div>
 </header><!--[end: site header]-->
-<section class="py-100 bgtertiary hero-heading" 
-    style="background-image: url('./assets/images/aboutus/aboutus1-01-01.png'); width: 100%; background-repeat: no-repeat; background-size: cover;">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <h1 class="heading-2 text-center txt-white fw-bold mb-4">For Partners</h1>
+<section class="hero-heading mb-5" 
+    style="position:relative; background-image: url('./assets/images/forpartners/forpartner1-01.png'); width: 100%; background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="container pt-4">
+        <div class="row justify-content-center pt-5">
+            <div class="col-12 text-center pt-5">
+                <h1 class="display-4 text-center txt-white fw-bold mb-4">For Partners</h1>
                 <img src="./assets/images/down-chevron-white.svg" alt="chevron" width="65" />
             </div>
         </div><!--row-->
     </div><!--container-->
 </section>
 
-
 <section>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-sm-11 col-md-10 text-center">
-                <h2 class="heading-2 fw-bold txt-primary mb-5">Your industry is our expertise. Capitalize on our know-how.</h2>
-                <p class="heading-5">
-                  We specialize and innovate in your industry, leveraging our expertise to drive discovery and growth. Our technology platforms empower you to enhance your competitiveness, ensuring top performance and delivering exceptional customer experiences. Additionally, we have the capability to configure and leverage our loan origination system for mortgage business rules, enabling us to help expedite performance for our clients.
-                </p>
-                <div class="row my-5">
-                  <div class="col-md-6 mb-5">
-                    <div class="card border-0 bgtertiary rounded-5 p-5 text-center">
-                      <span class="heading-4 fw-bold">Fintech</span>
-                      <h4 class="heading-3 fw-bold txt-primary">Financial Servies</h4>
-                      <p class="description">We help institutional players stay agile and relevant, making financial services accessible.</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-5">
-                    <div class="card border-0 bgtertiary rounded-5 p-5 text-center">
-                      <span class="heading-4 fw-bold">Fintech</span>
-                      <h4 class="heading-3 fw-bold txt-primary">Financial Servies</h4>
-                      <p class="description">We help institutional players stay agile and relevant, making financial services accessible.</p>
-                    </div>
-                  </div>
-                </div>
-                <hr class="separator-line" />
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-11 col-md-10 text-center">
+        <h2 class="fs-1 fw-bold txt-primary">Your industry is our expertise. Capitalize on our know-how.</h2>
+          <p class="fs-5 py-5">
+            We specialize and innovate in your industry, leveraging our expertise to drive discovery and growth. Our technology platforms empower you to enhance your competitiveness, ensuring top performance and delivering exceptional customer experiences. Additionally, we have the capability to configure and leverage our loan origination system for mortgage business rules, enabling us to help expedite performance for our clients.
+          </p>
+          <div class="row mt-5">
+            <div class="col-md-6 mb-5">
+              <div class="card border-0 bgtertiary rounded40 p-5 text-center">
+                <span class="fs-4 fw-bold">Fintech</span>
+                <h4 class="fs-2 fw-bold txt-primary mb-5">Financial Servies</h4>
+                <p class="fs-5">We help institutional players stay agile and relevant, making financial services accessible.</p>
+              </div>
             </div>
-        </div><!--row-->
-        <div class="podcast text-center my-5">
-            <h3 class="heading-3 fw-bold mb-5">If you are a...</h3>
-            <div class="col-md-10 mx-auto">
-              <div class="row">
-                <div class="col-12 col-sm-12 col-md-4">
-                  <a class="btn btn-pill d-flex align-items-center justify-content-center" href="#">
-                      <div class="play-btn">
-                        <span class="play-btn-circle-out">
-                          <span class="play-btn-circle-in">
-                            <span class="play-btn-triangle"> &nbsp;</span>
-                          </span>
-                        </span>
-                      </div>
-                      Real Estate Specialist
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4">
-                  <a class="btn btn-pill d-flex align-items-center justify-content-center" href="#">
-                      <div class="play-btn">
-                        <span class="play-btn-circle-out">
-                          <span class="play-btn-circle-in">
-                            <span class="play-btn-triangle"> &nbsp;</span>
-                          </span>
-                        </span>
-                      </div>
-                      Real Estate Specialist
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4">
-                  <a class="btn btn-pill d-flex align-items-center justify-content-center" href="#">
-                      <div class="play-btn">
-                        <span class="play-btn-circle-out">
-                          <span class="play-btn-circle-in">
-                            <span class="play-btn-triangle"> &nbsp;</span>
-                          </span>
-                        </span>
-                      </div>
-                      Real Estate Specialist
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4">
-                  <a class="btn btn-pill d-flex align-items-center justify-content-center" href="#">
-                      <div class="play-btn">
-                        <span class="play-btn-circle-out">
-                          <span class="play-btn-circle-in">
-                            <span class="play-btn-triangle"> &nbsp;</span>
-                          </span>
-                        </span>
-                      </div>
-                      Real Estate Specialist
-                  </a>
-                </div>
-                <div class="col-12 col-sm-12 col-md-4">
-                  <a class="btn btn-pill d-flex align-items-center justify-content-center" href="#">
-                      <div class="play-btn">
-                        <span class="play-btn-circle-out">
-                          <span class="play-btn-circle-in">
-                            <span class="play-btn-triangle"> &nbsp;</span>
-                          </span>
-                        </span>
-                      </div>
-                      Real Estate Specialist
-                  </a>
-                </div>
+            <div class="col-md-6 mb-5">
+              <div class="card border-0 bgtertiary rounded40 p-5 text-center">
+                <span class="fs-4 fw-bold">Fintech</span>
+                <h4 class="fs-2 fw-bold txt-primary mb-5">Financial Servies</h4>
+                <p class="fs-5">We help institutional players stay agile and relevant, making financial services accessible.</p>
               </div>
-              <div class="row text-center my-5">
-                <div class="container">
-                  <h3 class="fw-bold heading-3">This is for you.</h3>
-                  <a href="#" class="btn btn-primary">Work wit us</a>
-                </div>
+            </div>
+          </div>
+          <hr class="separator-line" />
+      </div>
+    </div><!--row-->
+    <div class="podcast text-center my-5"><!--[start: podcast]-->
+      <h3 class="fs-2 fw-bold mb-5 pb-5">If you are a...</h3>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-9 mx-auto">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <a class="btn btn-pill d-inline-flex align-items-center justify-content-end" href="#">
+              <div class="play-btn">
+                <span class="play-btn-circle-out">
+                  <span class="play-btn-circle-in">
+                    <span class="play-btn-triangle"> &nbsp;</span>
+                  </span>
+                </span>
               </div>
-            </div>    
+              Real Estate Specialist
+            </a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <a class="btn btn-pill d-inline-flex align-items-center justify-content-end" href="#">
+              <div class="play-btn">
+                <span class="play-btn-circle-out">
+                  <span class="play-btn-circle-in">
+                    <span class="play-btn-triangle"> &nbsp;</span>
+                  </span>
+                </span>
+              </div>
+              Real Estate Specialist
+            </a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <a class="btn btn-pill d-inline-flex align-items-center justify-content-end" href="#">
+              <div class="play-btn">
+                <span class="play-btn-circle-out">
+                  <span class="play-btn-circle-in">
+                    <span class="play-btn-triangle"> &nbsp;</span>
+                  </span>
+                </span>
+              </div>
+              Real Estate Specialist
+            </a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <a class="btn btn-pill d-inline-flex align-items-center justify-content-end" href="#">
+              <div class="play-btn">
+                <span class="play-btn-circle-out">
+                  <span class="play-btn-circle-in">
+                    <span class="play-btn-triangle"> &nbsp;</span>
+                  </span>
+                </span>
+              </div>
+              Real Estate Specialist
+            </a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+            <a class="btn btn-pill d-inline-flex align-items-center justify-content-end" href="#">
+              <div class="play-btn">
+                <span class="play-btn-circle-out">
+                  <span class="play-btn-circle-in">
+                    <span class="play-btn-triangle"> &nbsp;</span>
+                  </span>
+                </span>
+              </div>
+              Real Estate Specialist
+            </a>
+          </div>
         </div>
-    </div><!--container-->
+        <div class="row text-center my-5">
+          <div class="container">
+            <h3 class="fs-2 fw-bold mt-5 pt-5 mb-4">This is for you.</h3>
+            <a href="careers.html" target="_blank" class="btn btn-primary btn-lg">Work wit us</a>
+          </div>
+        </div>
+      </div>    
+    </div>
+  </div><!--container-->
 </section><!--#for-partners-2-->
 
-<section class="brand-partner">
+<section class="brand-partner bgtertiary">
   <div class="container">
     <div class="col-10 mb-5 text-center mx-auto">
-      <h4 class="heading-4">We extend our business capabilities through a powerful ecosystem of professionals and innovators. <strong>Some of our renowned industry partners.</strong></h4>
+      <h4 class="fs-4 fw-bold">Some of our renowned industry partners.</h4>
     </div>
 
     <div class="row logo-partner mb-5 pb-5"><!--[logo-partner]-->
@@ -212,20 +215,24 @@
       </div>
     </div><!--[end: logo-partner]-->
     <div class="w-100 text-center mt-5">
-      <a class="" href="#">Be our affiliate partners</a>
+      <a class="btn-link btn-icon" href="#">Be our affiliate partners <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
     </div>
   </div>
 </section>
+<div class="divider-bottom-tertiary position-relative">
+  <span>&nbsp;</span>
+  <span class="vertical-line">&nbsp;</span>
+</div>
 
-<footer class="site-footer p-5">
+<footer class="site-footer pt-5 mt-5">
   <div class="container">
-     <div class="row">
-      <div class="col-md-3 text-start p-0">
-        <img src="assets/images/logo-fintos-footer.png" alt="fintos" class="img-fluid" />
-        <p><i class="heading-4">Your Key to Financial Freedom</i></p>
+     <div class="row mt-5">
+      <div class="col-md-3 text-center text-lg-start p-md-0">
+        <img src="assets/images/logo-fintos-footer.png" alt="fintos" width="80" class="img-fluid mb-5" />
+        <p><i class="fs-5 fw-bold">Your Key to Financial Freedom</i></p>
       </div>
-      <div class="col-md-3 p-0">
-        <h4 class="heading-3 fw-extrabold">About Fintos</h4>
+      <div class="col-md-3 p-md-0 text-center text-md-start">
+        <h4 class="fs-3 fw-extrabold">About Fintos</h4>
         <nav>
             <ul class="list-unstyled">
               <li><a href="#">Divisions</a></li>
@@ -236,8 +243,8 @@
             </ul>
         </nav>
       </div>
-      <div class="col-md-2 p-0">
-        <h4 class="heading-3 fw-extrabold">Legal</h4>
+      <div class="col-md-2 p-md-0 text-center text-md-start">
+        <h4 class="fs-3 fw-extrabold">Legal</h4>
         <nav>
             <ul class="list-unstyled">
               <li><a href="#">Terms & Conditions</a></li>
@@ -246,23 +253,32 @@
             </ul>
         </nav>
       </div>
-      <div class="col-md-4 text-end justify-content-end p-0">
-        <h4 class="heading-4 fw-extrabold">Follow Us</h4>
+      <div class="col-md-4 text-center text-lg-end justify-content-center justify-content-lg-end p-md-0">
+        <h4 class="fs-4 fw-extrabold">Follow Us</h4>
         <nav class="socialmedia">
-          <ul class="d-flex list-unstyled justify-content-end">
-            <li><a href="#"><img src="assets/images/facebook.png" alt="fb" /></a></li>
-            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" /></a></li>
-            <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" /></a></li>
+          <ul class="d-flex list-unstyled justify-content-center justify-content-lg-end">
+            <li><a href="#"><img src="assets/images/facebook.png" alt="fb" width="38" /></a></li>
+            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" width="38"/></a></li>
+            <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" width="38"/></a></li>
           </ul>
         </nav>
-        <div class="subscribe">
-          <div class="form-control d-flex flex-row">
-            <input type="email" class="form-control border-0 p-0" id="" placeholder="Enter your email to join our mailing list">
+        <div class="subscribe mt-5">
+          <form>
+          <div class="form-control d-flex flex-column flex-lg-row">
+            <input type="email" class="form-control border-0 p-0 text-center text-lg-start py-4 py-md-0 shadow-none" id="" placeholder="Enter your email to join our mailing list.">
             <button type="submit" class="btn btn-primary">Subscribe</button>
           </div>
+          </form>
         </div>
       </div>
      </div>
+  </div>
+  <div class="copyright bgdarkgray txt-white fs-6 mt-5">
+    <div class="container py-4"> 
+      <div class="col-12 text-center text-md-start">
+        Copyright &copy; 2024 All rights reserved Fintos Venture Group
+      </div>
+    </div>  
   </div>
 </footer>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
@@ -270,31 +286,29 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="modal-body">
-          <ul class="navbar-nav align-items-start w-100 justify-content-between">
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0"href="ourDivisions.html">Our Divisions</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-uppercase p-0" href="forPartners.html">For Partners</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="careers.html">Careers</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="contactUs.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-btn txt-primary" href="#">Visit FINTOS Venture Group Website</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="navbar-nav align-items-start w-100 justify-content-between">
+          <li class="nav-item ">
+            <a class="nav-link text-uppercase p-0"href="ourDivisions.html">Our Divisions</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase p-0" href="forPartners.html">For Partners</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-uppercase p-0" href="careers.html">Careers</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-uppercase p-0" href="contactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-btn txt-primary" href="#">Visit FINTOS Venture Group Website</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

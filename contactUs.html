@@ -10,7 +10,7 @@
 <body>
 <header class="site-header"><!--[start:site header]-->
   <div class="container-fluid p-0 position-relative overflow-hidden">
-    <div class="d-lg-none btn btn-toggle position-absolute text-uppercase heading-3 txt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <div class="d-lg-none btn btn-toggle position-absolute text-uppercasetxt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
       <img src="./assets/images/burger-bar.svg" alt="nav" width="40" />
     </div>
     <div class="brand py-3"><a href="index.html"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99" /></a>
@@ -19,13 +19,17 @@
   <div class="main-navigation px-3">
     <nav class="navbar navbar-expand-lg ">
       <div class="container">
-        <!--<button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>-->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav align-items-center w-100 justify-content-between">
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0"href="#">Our Divisions</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-uppercase p-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="ourDivisions.html">Our Divisions</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="ourDivisionsAdvice.html">Our Divisions Advice</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsFinance.html">Our Divisions Finance</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsProperty.html">Our Divisions Property</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsTech.html">Our Divisions Tech</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsAcademy.html">Our Divisions Academy</a></li>
+              </ul>
             </li>
             <li class="nav-item ">
               <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
@@ -47,90 +51,104 @@
       </div>
     </nav>
   </div>
-</header><!--[end: site header]-->   
-<section class="py-100 bgtertiary hero-heading" 
-    style="background-image: url('./assets/images/aboutus/aboutus1-01-01.png'); width: 100%; background-repeat: no-repeat; background-size: cover;">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <h1 class="heading-2 text-center txt-white fw-bold mb-4">Contact Us</h1>
+</header><!--[end: site header]-->  
+<section class="hero-heading mb-5" 
+    style="position:relative; background-image: url('./assets/images/contactus/contactus1-01.png'); width: 100%; background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="container pt-4">
+        <div class="row justify-content-center pt-5">
+            <div class="col-12 text-center pt-5">
+                <h1 class="display-4 text-center txt-white fw-bold mb-4">Contact Us</h1>
                 <img src="./assets/images/down-chevron-white.svg" alt="chevron" width="65" />
             </div>
         </div><!--row-->
     </div><!--container-->
 </section>
-
-<section class="py-100 bg-tertiary">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-4 mb-3">
-                <div class="card bg-white rounded py-5 px-3 text-center align-items-center h-100">
-                  <img src="./assets/images/contactus/hexa-phone.svg" class="icon-block-32 text-center" width="189" alt="">
-                  <h2 class="heading-3 fw-bold my-3">Tel</h2>
-                  <p>+603 8089 0777</p>
-                </div>
-            </div>
-            <div class="col-12 col-md-4 mb-3">
-              <div class="card bg-white rounded py-5 px-3 text-center align-items-center h-100">
-                <img src="./assets/images/contactus/hexa-home.svg" class="icon-block-32 text-center" width="189" alt="">
-                <h2 class="heading-3 fw-bold my-3">Address</h2>
-                <p>Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
-              </div>
-            </div>
-                <div class="col-12 col-md-4 mb-3">
-                  <div class="card bg-white rounded py-5 px-3 text-center align-items-center h-100">
-                    <img src="./assets/images/contactus/hexa-email.svg" class="icon-block-32 text-center" width="189" alt="">
-                    <h2 class="heading-3 fw-bold my-3">Email</h2>
-                    <p>support@fintos.com.my</p>
-                  </div>  
-                </div>
-        </div><!--row-->
-    </div><!--container-->
-</section>
-
-<section class="py-100 bgtertiary">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="heading-3 text-center mt-5 mb-5 fw-bold">Enquiry Form</h2>
-      </div>
-    </div><!--row-->
-    <div class="form-contact-wrapper w-100 max-w-xl mx-auto bg-tertiary p-5 rounded-3 shadow-sm bg-body">
-      <div class="row">
-        <div class="col-12 mb-5">
-          <h3 class="heading-4 font-bold">Enter your detail below.</h3>
+<section class="bgtertiary hero-contact hero-imgcover">
+  <img class="img-fluid img-cover" src="./assets/images/contactus/hero-contact.png" alt="" title="" />
+  <div class="container container-overlap"><!--[start:container]-->
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-3">
+        <div class="card border-0 bg-white rounded40 py-5 px-3 text-center align-items-center h-100">
+          <img src="./assets/images/contactus/hexa-phone.svg" class="text-center" width="120" alt="">
+          <h2 class="fs-2 fw-bold my-3">Tel</h2>
+          <p class="fs-4 fw-bold px-2 px-lg-4">+603 8089 0777</p>
         </div>
       </div>
-      <form action="" method="" class="row">
-      <div class="col-12 col-md-6 mb-4">
-        <label for="contact-first-name" class="form-label">First Name</label>
-        <input type="text" class="form-control rounded-pill" id="contact-first-name">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-3">
+        <div class="card border-0 bg-white rounded40 py-5 px-3 text-center align-items-center h-100">
+          <img src="./assets/images/contactus/hexa-home.svg" class="text-center" width="120" alt="">
+          <h2 class="fs-2 fw-bold my-3">Address</h2>
+          <p class="fs-4 fw-bold px-2 px-lg-4">Lot No. 11F-2, 11th Floor, Tower 4 @ PFCC, Jalan Puteri 1/2, Bandar Puteri Puchong, 47100 Puchong, Selangor</p>
+        </div>
       </div>
-      <div class="col-12 col-md-6 mb-4">
-        <label for="contact-last-name" class="form-label">Last Name</label>
-        <input type="text" class="form-control rounded-pill" id="contact-last-name">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-3">
+        <div class="card border-0 bg-white rounded40 py-5 px-3 text-center align-items-center h-100">
+          <img src="./assets/images/contactus/hexa-email.svg" class="text-center" width="120" alt="">
+          <h2 class="fs-2 fw-bold my-3">Email</h2>
+          <p class="fs-4 fw-bold px-2 px-lg-4">support@fintos.com.my</p>
+        </div>  
       </div>
-      <div class="col-12 col-md-6 mb-4">
-        <label for="contact-contact-no" class="form-label">Contact No</label>
-        <input type="text" class="form-control rounded-pill" id="contact-contact-no">
+    </div><!--row-->
+  </div><!--[end:container]-->
+</section>
+
+<section class="bgtertiary contactform pt-5">
+  <div class="container pt-5">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="fs-1 text-center mt-5 mb-5 fw-bold">Enquiry Form</h2>
       </div>
-      <div class="col-12 col-md-6 mb-4">
-        <label for="contact-email" class="form-label">Email</label>
-        <input type="email" class="form-control rounded-pill" id="contact-email">
+    </div>
+    <div class="bg-tertiary">
+      <div class="row">
+        <div class="container">
+          <div class="col-12 mb-5">
+            <div class="bgwhite p-4 p-md-5 rounded40">
+              <h3 class="fs-2 fw-bold mb-5 px-md-3">Enter your detail below.</h3>
+              <form action="" method="" class="px-md-3">
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-4">
+                    <label for="contact-first-name" class="form-label fs-5 fw-bold txt-slategray">First Name</label>
+                    <input type="text" class="form-control rounded-pill" id="contact-first-name">
+                  </div>
+                  <div class="col-12 col-md-6 mb-4">
+                    <label for="contact-last-name" class="form-label fs-5 fw-bold txt-slategray">Last Name</label>
+                    <input type="text" class="form-control rounded-pill" id="contact-last-name">
+                  </div>
+                </div> 
+                <div class="row">
+                  <div class="col-12 col-md-6 mb-4">
+                    <label for="contact-contact-no" class="form-label fs-5 fw-bold txt-slategray">Contact No</label>
+                    <input type="text" class="form-control rounded-pill" id="contact-contact-no">
+                  </div>
+                  <div class="col-12 col-md-6 mb-4">
+                    <label for="contact-email" class="form-label fs-5 fw-bold txt-slategray">Email</label>
+                    <input type="email" class="form-control rounded-pill" id="contact-email">
+                  </div>
+                </div> 
+                <div class="row">
+                  <div class="col-12 mb-4">
+                    <label for="contact-subject" class="form-label fs-5 fw-bold txt-slategray">Subject</label>
+                    <input type="text" class="form-control rounded-pill" id="contact-subject">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 mb-4">
+                    <label for="contact-message" class="form-label fs-5 fw-bold txt-slategray">Message</label>
+                    <textarea class="form-control" id="contact-message" rows="4"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 text-md-end d-block">
+                    <button type="submit" class="btn btn-primary btn-lg w-sm-100">Submit</button>
+                  </div>
+                </div>  
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-12 mb-4">
-        <label for="contact-subject" class="form-label">Subject</label>
-        <input type="text" class="form-control rounded-pill" id="contact-subject">
-      </div>
-      <div class="col-12 mb-4">
-        <label for="contact-message" class="form-label">Message</label>
-        <textarea class="form-control rounded" id="contact-message" rows="4"></textarea>
-      </div>
-      <div class="col-12 col-md-4 offset-md-8">
-        <button type="submit" class="btn btn-primary d-inline-block w-100">Submit</button>
-      </div>
-    </form>
-  </div><!--form-contact-wrapper-->
+  </div>
 </div><!--container-->
 </section>
 
@@ -143,15 +161,15 @@
         </div>
     </div><!--container-fluid-->
 </section><!--#contact-us-4-->
-<footer class="site-footer p-5">
+<footer class="site-footer pt-5">
   <div class="container">
-     <div class="row">
-      <div class="col-md-3 text-start p-0">
-        <img src="assets/images/logo-fintos-footer.png" alt="fintos" class="img-fluid" />
-        <p><i class="heading-4">Your Key to Financial Freedom</i></p>
+     <div class="row mt-5">
+      <div class="col-md-3 text-center text-lg-start p-md-0">
+        <img src="assets/images/logo-fintos-footer.png" alt="fintos" width="80" class="img-fluid mb-5" />
+        <p><i class="fs-5 fw-bold">Your Key to Financial Freedom</i></p>
       </div>
-      <div class="col-md-3 p-0">
-        <h4 class="heading-3 fw-extrabold">About Fintos</h4>
+      <div class="col-md-3 p-md-0 text-center text-md-start">
+        <h4 class="fs-3 fw-extrabold">About Fintos</h4>
         <nav>
             <ul class="list-unstyled">
               <li><a href="#">Divisions</a></li>
@@ -162,8 +180,8 @@
             </ul>
         </nav>
       </div>
-      <div class="col-md-2 p-0">
-        <h4 class="heading-3 fw-extrabold">Legal</h4>
+      <div class="col-md-2 p-md-0 text-center text-md-start">
+        <h4 class="fs-3 fw-extrabold">Legal</h4>
         <nav>
             <ul class="list-unstyled">
               <li><a href="#">Terms & Conditions</a></li>
@@ -172,23 +190,32 @@
             </ul>
         </nav>
       </div>
-      <div class="col-md-4 text-end justify-content-end p-0">
-        <h4 class="heading-4 fw-extrabold">Follow Us</h4>
+      <div class="col-md-4 text-center text-lg-end justify-content-center justify-content-lg-end p-md-0">
+        <h4 class="fs-4 fw-extrabold">Follow Us</h4>
         <nav class="socialmedia">
-          <ul class="d-flex list-unstyled justify-content-end">
-            <li><a href="#"><img src="assets/images/facebook.png" alt="fb" /></a></li>
-            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" /></a></li>
-            <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" /></a></li>
+          <ul class="d-flex list-unstyled justify-content-center justify-content-lg-end">
+            <li><a href="#"><img src="assets/images/facebook.png" alt="fb" width="38" /></a></li>
+            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" width="38"/></a></li>
+            <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" width="38"/></a></li>
           </ul>
         </nav>
-        <div class="subscribe">
-          <div class="form-control d-flex flex-row">
-            <input type="email" class="form-control border-0 p-0" id="" placeholder="Enter your email to join our mailing list">
+        <div class="subscribe mt-5">
+          <form>
+          <div class="form-control d-flex flex-column flex-lg-row">
+            <input type="email" class="form-control border-0 p-0 text-center text-lg-start py-4 py-md-0 shadow-none" id="" placeholder="Enter your email to join our mailing list.">
             <button type="submit" class="btn btn-primary">Subscribe</button>
           </div>
+          </form>
         </div>
       </div>
      </div>
+  </div>
+  <div class="copyright bgdarkgray txt-white fs-6 mt-5">
+    <div class="container py-4"> 
+      <div class="col-12 text-center text-md-start">
+        Copyright &copy; 2024 All rights reserved Fintos Venture Group
+      </div>
+    </div>  
   </div>
 </footer>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
@@ -196,31 +223,29 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <div class="modal-body">
-          <ul class="navbar-nav align-items-start w-100 justify-content-between">
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0"href="ourDivisions.html">Our Divisions</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-uppercase p-0" href="forPartners.html">For Partners</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="careers.html">Careers</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="contactUs.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-btn txt-primary" href="#">Visit FINTOS Venture Group Website</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="navbar-nav align-items-start w-100 justify-content-between">
+          <li class="nav-item ">
+            <a class="nav-link text-uppercase p-0"href="ourDivisions.html">Our Divisions</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase p-0" href="forPartners.html">For Partners</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-uppercase p-0" href="careers.html">Careers</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-uppercase p-0" href="contactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-btn txt-primary" href="#">Visit FINTOS Venture Group Website</a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>

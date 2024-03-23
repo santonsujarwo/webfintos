@@ -14,7 +14,7 @@
 
 <header class="site-header"><!--[start:site header]-->
   <div class="container-fluid p-0 position-relative overflow-hidden">
-    <div class="d-lg-none btn btn-toggle position-absolute text-uppercase heading-3 txt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <div class="d-lg-none btn btn-toggle position-absolute text-uppercasetxt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
       <img src="./assets/images/burger-bar.svg" alt="nav" width="40" />
     </div>
     <div class="brand py-3"><a href="index.html"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99" /></a>
@@ -25,8 +25,15 @@
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav align-items-center w-100 justify-content-between">
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0"href="ourDivisions.html">Our Divisions</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-uppercase p-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="ourDivisions.html">Our Divisions</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="ourDivisionsAdvice.html">Our Divisions Advice</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsFinance.html">Our Divisions Finance</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsProperty.html">Our Divisions Property</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsTech.html">Our Divisions Tech</a></li>
+                <li><a class="dropdown-item" href="ourDivisionsAcademy.html">Our Divisions Academy</a></li>
+              </ul>
             </li>
             <li class="nav-item ">
               <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
@@ -49,174 +56,162 @@
     </nav>
   </div>
 </header><!--[end: site header]-->
-<section class="bgtertiary"><!--[start:section hero]-->
-  <div class="hero d-flex flex-row position-relative" style="background: url(assets/images/homepage/homepage-banner.png) no-repeat;  background-size: cover; background-position: bottom;">
-    <div class="p-5 mb-4">
-      <div class="container py-5">
-        <h1 class="heading-1 fw-extrabold">Reinventing Financial Industries</h1>
-        <a href="#" class="btn btn-primary btn-lg">Learn more</a>
-      </div>
-    </div> 
+<section class="bgtertiary pb-5"><!--[start:section]-->
+  <div class="hero align-items-center position-relative" style="background: url(assets/images/homepage/homepage-banner.png) no-repeat;  background-size: cover; background-position: bottom;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-10 col-lg-6">
+          <h1 class="display-1 fw-extrabold mb-5">Reinventing Financial Industries</h1>
+          <a href="#" class="btn btn-primary btn-lg btn-icon">Learn more <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+        </div>
+      </div>  
+    </div>
   </div> 
-  <div class="container mt-5 pt-5">
-    <div class="row justify-content-center page-heading pt-5">
-      <div class="col-12 col-lg-8 text-center">
-        <p class="heading-3 fw-extrabold subtitle mb-5 pb-5">Fintos revolutionizes finance by empowering developers, agencies, and users with innovative, technology-led solutions, transforming how financial services are accessed and experienced.</p>
-        <h2 class="heading-2 fw-extrabold maintitle text-center">See what we're made of.</h2>
+  <div class="container">
+    <div class="row justify-content-center pt-5">
+      <div class="col-12 col-lg-9 text-center">
+        <p class="fs-3 fw-extrabold mb-5">Fintos revolutionizes finance by empowering developers, agencies, and users with innovative, technology-led solutions, transforming how financial services are accessed and experienced.</p>
+        <h2 class="fs-1 fw-extrabold text-center">See what we're made of.</h2>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div id="carousel-home" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="0" class="active label-indicator" aria-current="true" aria-label="Slide 1">Advisory</button>
-          <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1" class="label-indicator" aria-label="Slide 2">Financing</button>
-          <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2" class="label-indicator" aria-label="Slide 3">Technology</button>
-          <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="3" class="label-indicator" aria-label="Slide 3">Property</button>
-          <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="4" class="label-indicator"aria-label="Slide 3">Academy</button>
-        </div>
-        <div class="carousel-inner">
-      
-          <div class="carousel-item active" data-bs-interval="10000">
-            <div class="row">
-              <div class="col-12 col-lg-4 p-0">
-                <img src="./assets/images/homepage/slider/Fintos-Advise.jpg" class="d-block w-100 h-auto" alt="...">
-              </div>
-              <div class="col-12 col-lg-8 p-3 p-lg-5">
-                <div class="row h-100 align-items-center">
-                  <div class="col-12">
-                    <h2 class="heading-2 fw-bold">Navigation Better Financial Moves</h2>
-                  </div>
-                  <div class="col-12">
-                    <p class="heading-4">we server as trusted advisor who guide our clients through their financial journey.</p>
-                  </div>
-                  <div class="col-12">
-                    <a class="btn-link" href="#">Fintos Advice <img src="./assets/images/right-arrow.svg" alt="" width="16px" height="16px"></a>
-                  </div>
-                </div><!--row-->
-              </div>
-            </div><!--row-->
-          </div><!--carousel-item-->
-          <div class="carousel-item" data-bs-interval="10000">
-            <div class="row">
-              <div class="col-12 col-lg-4 p-0">
-                <img src="./assets/images/homepage/slider/Fintos-Finance.jpg" class="d-block w-100 h-auto" alt="...">
-              </div>
-              <div class="col-12 col-lg-8 p-3 p-lg-5">
-                <div class="row h-100 align-items-center">
-                  <div class="col-12">
-                    <h2 class="heading-2 fw-bold">Ace All of Life's Financial Needs</h2>
-                  </div>
-                  <div class="col-12">
-                    <p class="heading-4">We offer comperhensive loan financing solutionsm with attractive terms to match.</p>
-                  </div>
-                  <div class="col-12">
-                    <a class="btn-link" href="#">Fintos Finance <img src="./assets/images/right-arrow.svg" alt="" width="16px" height="16px"></a>
-                  </div>
-                </div><!--row-->
-              </div>
-            </div><!--row-->
-          </div><!--carousel-item-->
-          <div class="carousel-item" data-bs-interval="10000">
-            <div class="row">
-              <div class="col-12 col-lg-4 p-0">
-                <img src="./assets/images/homepage/slider/Fintos-Tech.jpg" class="d-block w-100 h-auto" alt="...">
-              </div>
-              <div class="col-12 col-lg-8 p-3 p-lg-5">
-                <div class="row h-100 align-items-center">
-                  <div class="col-12">
-                    <h2 class="heading-2 fw-bold">Better Decisions.<br/>Better Insights.</h2>
-                  </div>
-                  <div class="col-12">
-                    <p class="heading-4">We facilitate innovation in Fintech by developing and implementing the latest technology products and solutions that aid in scaling operations.</p>
-                  </div>
-                  <div class="col-12">
-                    <a class="btn-link" href="#">Fintos Tech <img src="./assets/images/right-arrow.svg" alt="" width="16px" height="16px"></a>
-                  </div>
-                </div><!--row-->
-              </div>
-            </div><!--row-->
-          </div><!--carousel-item-->
-          <div class="carousel-item" data-bs-interval="10000">
-            <div class="row">
-              <div class="col-12 col-lg-4 p-0">
-                <img src="./assets/images/homepage/slider/Fintos-Property.jpg" class="d-block w-100 h-auto" alt="...">
-              </div>
-              <div class="col-12 col-lg-8 p-3 p-lg-5">
-                <div class="row h-100 align-items-center">
-                  <div class="col-12">
-                    <h2 class="heading-2 fw-bold">Your Property.<br/>Our Priority.</h2>
-                  </div>
-                  <div class="col-12">
-                    <p class="heading-4">We facilitate real estate management subsidiaries, providing a property booking system and commission system for all property-related companies that aid in scaling operations.</p>
-                  </div>
-                  <div class="col-12">
-                    <a class="btn-link" href="#">Fintos Property <img src="./assets/images/right-arrow.svg" alt="" width="16px" height="16px"></a>
-                  </div>
-                </div><!--row-->
-              </div>
-            </div><!--row-->
-          </div><!--carousel-item-->
-          <div class="carousel-item" data-bs-interval="10000">
-            <div class="row">
-              <div class="col-12 col-lg-4 p-0">
-                <img src="./assets/images/homepage/slider/Fintos-Academy.jpg" class="d-block w-100 h-auto" alt="...">
-              </div>
-              <div class="col-12 col-lg-8 p-3 p-lg-5">
-                <div class="row h-100 align-items-center">
-                  <div class="col-12">
-                    <h2 class="heading-2 fw-bold">Be Life Confident</h2>
-                  </div>
-                  <div class="col-12">
-                    <p class="heading-4">We understand the importance of financial literacy in today's complex world, and our mission is to equip learners with the tools they need to make informed financial decisions.</p>
-                  </div>
-                  <div class="col-12">
-                    <a class="btn-link" href="#">Fintos Academy <img src="./assets/images/right-arrow.svg" alt="" width="16px" height="16px"></a>
-                  </div>
-                </div><!--row-->
-              </div>
-            </div><!--row-->
-          </div><!--carousel-item-->
-      
-        </div><!--carousel-inner-->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-home" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-  
-  </div><!--row-->
+      <div class="col-12">
+        <div id="carousel-home" class="carousel mt-5" data-bs-ride="carousel"><!--[start: carousel]-->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="0" class="active label-indicator fs-3" aria-current="true" aria-label="Slide 1">Advisory</button>
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1" class="label-indicator fs-3" aria-label="Slide 2">Financing</button>
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2" class="label-indicator fs-3" aria-label="Slide 3">Technology</button>
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="3" class="label-indicator fs-3" aria-label="Slide 3">Property</button>
+            <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="4" class="label-indicator fs-3"aria-label="Slide 3">Academy</button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="row px-md-5 align-items-center">
+                <div class="col-12 col-md-5 p-0">
+                  <img src="./assets/images/homepage/slider/Fintos-Advise.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-12 col-md-6 mt-5 mt-md-0 p-0 p-md-3 px-md-5 text-center text-md-start">
+                  <h2 class="fs-1 fw-bold">Navigation Better Financial Moves</h2>
+                  <p class="fs-4 py-md-4">we server as trusted advisor who guide our clients through their financial journey.</p>
+                  <a class="btn-link btn-icon" href="ourDivisionsAdvice.html" target="_blank">FINTOS Advice <img src="./assets/images/chevron.svg" alt="fintos" width="16px" height="16px" /></a>
+                </div>
+              </div><!--row-->
+            </div><!--carousel-item-->
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="row px-md-5 align-items-center">
+                <div class="col-12 col-md-5 p-0">
+                  <img src="./assets/images/homepage/slider/Fintos-Finance.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-12 col-md-6 mt-5 mt-md-0 p-0 p-md-3 px-md-5 text-center text-md-start">
+                  <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                      <h2 class="fs-1 fw-bold">Ace All of Life's Financial Needs</h2>
+                      <p class="fs-4 py-md-4">We offer comperhensive loan financing solutionsm with attractive terms to match.</p>
+                      <a class="btn-link btn-icon" href="ourDivisionsFinance.html" target="_blank">FINTOS Finance <img src="./assets/images/chevron.svg" alt="" width="16px" height="16px"></a>
+                    </div>
+                  </div><!--row-->
+                </div>
+              </div><!--row-->
+            </div><!--carousel-item-->
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="row px-md-5 align-items-center">
+                <div class="col-12 col-md-5 p-0">
+                  <img src="./assets/images/homepage/slider/Fintos-Tech.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-12 col-md-6 mt-5 mt-md-0 p-0 p-md-3 px-md-5 text-center text-md-start">
+                  <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                      <h2 class="fs-1 fw-bold">Better Decisions.<br/>Better Insights.</h2>
+                      <p class="fs-4 py-md-4">We facilitate innovation in Fintech by developing and implementing the latest technology products and solutions that aid in scaling operations.</p>
+                      <a class="btn-link btn-icon" href="ourDivisionsTech.html" target="_blank">FINTOS Tech <img src="./assets/images/chevron.svg" alt="" width="16px" height="16px"></a>
+                    </div>
+                  </div><!--row-->
+                </div>
+              </div><!--row-->
+            </div><!--carousel-item-->
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="row px-md-5 align-items-center">
+                <div class="col-12 col-md-5 p-0">
+                  <img src="./assets/images/homepage/slider/Fintos-Property.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-12 col-md-6 mt-5 mt-md-0 p-0 p-md-3 px-md-5 text-center text-md-start">
+                  <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                      <h2 class="fs-1 fw-bold">Your Property.<br/>Our Priority.</h2>
+                      <p class="fs-4 py-md-4">We facilitate real estate management subsidiaries, providing a property booking system and commission system for all property-related companies that aid in scaling operations.</p>
+                      <a class="btn-link btn-icon" href="ourDivisionsProperty.html" target="_blank">Fintos Property <img src="./assets/images/chevron.svg" alt="" width="16px" height="16px"></a>
+                    </div>
+                  </div><!--row-->
+                </div>
+              </div><!--row-->
+            </div><!--carousel-item-->
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="row px-md-5 align-items-center">
+                <div class="col-12 col-md-5 p-0">
+                  <img src="./assets/images/homepage/slider/Fintos-Academy.jpg" class="d-block w-100 h-auto" alt="...">
+                </div>
+                <div class="col-12 col-md-6 mt-5 mt-md-0 p-0 p-md-3 px-md-5 text-center text-md-start">
+                  <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                      <h2 class="fs-1 fw-bold">Be Life Confident</h2>
+                      <p class="fs-4 py-md-4">We understand the importance of financial literacy in today's complex world, and our mission is to equip learners with the tools they need to make informed financial decisions.</p>
+                      <a class="btn-link btn-icon" href="ourDivisionsAcademy.html" target="_blank">Fintos Academy <img src="./assets/images/chevron.svg" alt="" width="16px" height="16px"></a>
+                    </div>
+                  </div><!--row-->
+                </div>
+              </div><!--row-->
+            </div><!--carousel-item-->
+        
+          </div><!--carousel-inner-->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-home" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div><!--[end: carousel]-->
+      </div>   
+    </div><!--row-->
   </div><!--container-->
-</section>
-
-
-
+</section><!--[end:section]-->
+<div class="divider-bottom-tertiary"><span>&nbsp;</span></div>
 
 <section class="content-textimg my-5 py-5"><!--[start:content-txtimg]-->
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-11 mb-5">
-        <div class="row align-items-center img-text">
-          <div class="col-12 col-md-5 col-img"><img src="assets/images/homepage/img-thumb-fintostech2.png" alt="fintos" class="img-fluid" /></div>
-          <div class="col-12 mt-3 mt-sm-0 col-md-7 col-text">
-            <h3 class="heading-3 fw-extrabold">We help businesses and institutions make smarter decisions and build personalized experiences with their customers…</h3>
-            <a href="#" class="btn btn-secondary btn-lg">Learn more</a>
+  <div class="img-text position-relative">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-11 mb-5">
+          <div class="line-strip">&nbsp;</div>
+          <div class="row align-items-center contentwrap position-relative">
+            <div class="col-12 col-md-5 col-img"><img src="assets/images/homepage/img-thumb-fintostech2.png" alt="fintos" class="img-fluid" /></div>
+            <div class="col-12 mt-4 mt-sm-0 col-md-7 col-text text-center text-lg-start">
+              <h3 class="fs-3 fw-extrabold mb-5">We help businesses and institutions make smarter decisions and build personalized experiences with their customers…</h3>
+              <a href="ourDivisionsTech.html" target="_blank" class="btn btn-secondary btn-lg btn-icon">Fintos Tech <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+            </div>
           </div>
-        </div>
-        <div class="row align-items-center text-img text-end">
-          <div class="col-12 order-2 order-md-1 col-md-7 col-text">
-            <h3 class="heading-3 fw-extrabold">and empower individuals to take control of their finances and access financial services.</h3>
-            <a href="#" class="btn btn-secondary btn-lg">Learn more</a>
-          </div>
-          <div class="col-12 order-1 order-md-2 col-md-5 col-img"><img src="assets/images/homepage/img-thumb-fintostech2.png" alt="fintos" class="img-fluid" /></div>
-          
         </div>
       </div>
+    </div>
+  </div>
+  <div class="text-img  position-relative">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-11 mb-5">
+          <div class="row align-items-center justify-content-md-end text-end contentwrap  position-relative">
+            <div class="col-12 mt-4 mt-sm-0 col-md-5 col-text text-center text-lg-end order-2">
+              <h3 class="fs-3 fw-extrabold mb-5">and empower individuals to take control of their finances and access financial services.</h3>
+              <a href="ourDivisionsAdvice.html" target="_blank" class="btn btn-secondary btn-lg btn-icon">Fintos Advice<img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+            </div>
+            <div class="col-12 order-1 order-md-2 col-md-5 col-img order-1"><img src="assets/images/homepage/international-business-modern-world.png" alt="fintos" class="img-fluid" /></div>
+          </div>
+          <div class="line-strip">&nbsp;</div>
+        </div>
+      </div>    
+    </div>
   </div>
 </div>
 </section><!--[end:content-txt-img]-->
@@ -224,32 +219,31 @@
 <section class="apps-preview"><!--[start:apps-preview]-->
   <div class="container">
     <div class="row justify-content-center page-heading">
-      <div class="col-10 text-center">
-        <h2 class="heading-2 fw-extrabold maintitle text-center">Financial power in your pocket.</h2>
-        <p class="heading-4 subtitle mb-5 pb-5">Download the free Fintos app and view your credit scores anytime, anywhere on your phone or tablet</p>
+      <div class="col-12 col-md-10 text-center">
+        <h2 class="fs-1 fw-extrabold text-center">Financial power in your pocket.</h2>
+        <p class="fs-5 mb-md-5 pb-md-5">Download the free Fintos app and view your credit scores anytime, anywhere on your phone or tablet</p>
       </div>
       <div class="thumbnail-img">
         <img src="assets/images/homepage/home-2-App-Features-3.png" class="img-fluid" alt="apps preview"/>
       </div>
       
       <div class="d-flex flex-column justify-content-center align-items-center">
-        <a href="#" class="btn btn-secondary btn-lg">Learn more</a>
+        <a href="#" class="btn btn-secondary btn-lg btn-icon">Get My Scores <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
         <div class="d-flex badge-download">
-          <a target="_new" href="https://play.google.com/store/apps/details?id=com.my.fintos&hl=en_US&gl=US"><img src="assets/images/googleplay.png" width="300" class="img-fluid" alt="googleplay"/></a>
-          <a target="_new" href="https://apps.apple.com/my/app/fintos/id1565767477"><img src="assets/images/applestore.png" width="300" class="img-fluid" alt="applestore"/></a>
+          <a target="_new" href="https://play.google.com/store/apps/details?id=com.my.fintos&hl=en_US&gl=US"><img src="assets/images/googleplay.png" width="220" class="img-fluid" alt="googleplay"/></a>
+          <a target="_new" href="https://apps.apple.com/my/app/fintos/id1565767477"><img src="assets/images/applestore.png" width="220" class="img-fluid" alt="applestore"/></a>
         </div>
       </div>
   </div> 
-</section><!--[end:apps-preview]-->
-
-   
+</section><!--[end:apps-preview]--> 
+<div class="divider-top-lightgray"><span>&nbsp;</span></div>  
 <section class="brand-partner">
   <div class="container">
-    <div class="col-10 mb-5 text-center mx-auto">
-      <h4 class="heading-4">We extend our business capabilities through a powerful ecosystem of professionals and innovators. <strong>Some of our renowned industry partners.</strong></h4>
+    <div class="col-12 col-md-9 mb-5 text-center mx-auto">
+      <h4 class="fs-4">We extend our business capabilities through a powerful ecosystem of professionals and innovators. <strong>Some of our renowned industry partners.</strong></h4>
     </div>
 
-    <div class="row logo-partner mb-5 pb-5"><!--[logo-partner]-->
+    <div class="row logo-partner mt-lg-5 mb-5 pb-5"><!--[logo-partner]-->
       <div class="col-6 col-md-4 col-lg-3 mb-3">
         <div class="card align-items-center justify-content-center p-2"><img src="assets/images/industrypartners/setia-brand.png" alt="fintos" class="img-fluid align-items-center justify-content-center " /></div>
       </div>
@@ -291,7 +285,7 @@
       </div>
     </div><!--[end: logo-partner]-->
     <div class="w-100 text-center mt-5">
-      <a class="btn-link" href="#">Be our affiliate partners</a>
+      <a class="btn-link btn-icon" href="#">Be our affiliate partners <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
     </div>
   </div>
 </section>
@@ -299,63 +293,64 @@
 
 <section class="news-information">
   <div class="container">
-    <div class="row justify-content-center page-heading">
+    <div class="row justify-content-center mb-5">
       <div class="col-12 text-center">
-        <h2 class="heading-3 fw-extrabold maintitle text-center">Your news and information</h2>
+        <h2 class="fs-2 fw-extrabold text-center">Your news and information</h2>
       </div>  
     </div>
     <div class="row justify-content-center card-news">
       <div class="col-12 col-md-4 mb-5">
         <div class="card border-0">
           <div class="card-body text-center p-2">
-          <img src="assets/images/thumb-news.svg" alt="thumb" class="img-fluid" />
-          <h4 class="heading-4 fw-extrabold">Become a part of the Fintosian</h4>
-          <p class="heading-5">Be part of a dynamic team working to unlock opportunities for professional growth, and a supportive work environment that nurtures your talents and skills.</p>
-          <a href="#" class="btn btn-link">Be our affiliate partners</a>
+          <img src="assets/images/thumb-news.svg" alt="thumb" width="80" class="img-fluid" />
+          <h4 class="fs-5 fw-extrabold py-4 mb-0">Become a part of the Fintosian</h4>
+          <p class="fs-6">Be part of a dynamic team working to unlock opportunities for professional growth, and a supportive work environment that nurtures your talents and skills.</p>
+          <a href="#" class="btn btn-link btn-icon">Learn More <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
         </div>
         </div>
       </div>
       <div class="col-12 col-md-4 mb-5">
         <div class="card border-0">
           <div class="card-body text-center p-2">
-          <img src="assets/images/thumb-news.svg" alt="thumb" class="img-fluid" />
-          <h4 class="heading-4 fw-extrabold">Become a part of the Fintosian</h4>
-          <p class="heading-5">Be part of a dynamic team working to unlock opportunities for professional growth, and a supportive work environment that nurtures your talents and skills.</p>
-          <a href="#" class="btn btn-link">Be our affiliate partners</a>
+            <img src="assets/images/thumb-news.svg" alt="thumb" width="80" class="img-fluid" />
+            <h4 class="fs-5 fw-extrabold py-4 mb-0">Become a part of the Fintosian</h4>
+            <p class="fs-6">Be part of a dynamic team working to unlock opportunities for professional growth, and a supportive work environment that nurtures your talents and skills.</p>
+            <a href="#" class="btn btn-link btn-icon">Learn More <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
         </div>
         </div>
       </div>
       <div class="col-12 col-md-4 mb-5">
         <div class="card border-0">
           <div class="card-body text-center p-2">
-          <img src="assets/images/thumb-news.svg" alt="thumb" class="img-fluid" />
-          <h4 class="heading-4 fw-extrabold">Become a part of the Fintosian</h4>
-          <p class="heading-5">Be part of a dynamic team working to unlock opportunities for professional growth, and a supportive work environment that nurtures your talents and skills.</p>
-          <a href="#" class="btn btn-link">Be our affiliate partners</a>
-        </div>
+            <img src="assets/images/thumb-news.svg" alt="thumb" class="img-fluid" />
+            <h4 class="fs-5 fw-extrabold py-4 mb-0">Become a part of the Fintosian</h4>
+            <p class="fs-6">Be part of a dynamic team working to unlock opportunities for professional growth, and a supportive work environment that nurtures your talents and skills.</p>
+            <a href="#" class="btn btn-link btn-icon">Learn More <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+          </div>
         </div>
       </div>
     </div>
     <div class="row align-items-center img-text">
       <div class="col-12 col-md-5 col-img"><img src="assets/images/homepage/img-thumb-fintosadvice.jpg" alt="fintos" class="img-fluid" /></div>
-      <div class="col-12 col-md-7 col-text">
-        <h3 class="heading-3 fw-extrabold">What are your priorities?</h3>
-        <p class="heading-3">Talk to our financial advisors to see how FINTOS can support you.</p>
-        <a href="#" class="btn btn-secondary">Learn more</a>
+      <div class="col-12 col-md-5 col-text text-center text-lg-start mt-4 mt-md-0">
+        <h3 class="fs-3 fw-extrabold">What are your priorities?</h3>
+        <p class="fs-3">Talk to our financial advisors to see how FINTOS can support you.</p>
+        <a href="#" class="btn btn-white btn-lg btn-icon">Talk to Us <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
       </div>
     </div>
   </div>
 </section>
+<div class="divider-bottom-primary"><span>&nbsp;</span></div>
 
-<footer class="site-footer p-5">
+<footer class="site-footer pt-5">
   <div class="container">
-     <div class="row">
-      <div class="col-md-3 text-start p-0">
-        <img src="assets/images/logo-fintos-footer.png" alt="fintos" class="img-fluid" />
-        <p><i class="heading-4">Your Key to Financial Freedom</i></p>
+     <div class="row mt-5">
+      <div class="col-md-3 text-center text-lg-start p-md-0">
+        <img src="assets/images/logo-fintos-footer.png" alt="fintos" width="80" class="img-fluid mb-5" />
+        <p><i class="fs-5 fw-bold">Your Key to Financial Freedom</i></p>
       </div>
-      <div class="col-md-3 p-0">
-        <h4 class="heading-3 fw-extrabold">About Fintos</h4>
+      <div class="col-md-3 p-md-0 text-center text-md-start">
+        <h4 class="fs-3 fw-extrabold">About Fintos</h4>
         <nav>
             <ul class="list-unstyled">
               <li><a href="#">Divisions</a></li>
@@ -366,8 +361,8 @@
             </ul>
         </nav>
       </div>
-      <div class="col-md-2 p-0">
-        <h4 class="heading-3 fw-extrabold">Legal</h4>
+      <div class="col-md-2 p-md-0 text-center text-md-start">
+        <h4 class="fs-3 fw-extrabold">Legal</h4>
         <nav>
             <ul class="list-unstyled">
               <li><a href="#">Terms & Conditions</a></li>
@@ -376,23 +371,32 @@
             </ul>
         </nav>
       </div>
-      <div class="col-md-4 text-end justify-content-end p-0">
-        <h4 class="heading-4 fw-extrabold">Follow Us</h4>
+      <div class="col-md-4 text-center text-lg-end justify-content-center justify-content-lg-end p-md-0">
+        <h4 class="fs-4 fw-extrabold">Follow Us</h4>
         <nav class="socialmedia">
-          <ul class="d-flex list-unstyled justify-content-end">
-            <li><a href="#"><img src="assets/images/facebook.png" alt="fb" /></a></li>
-            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" /></a></li>
-            <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" /></a></li>
+          <ul class="d-flex list-unstyled justify-content-center justify-content-lg-end">
+            <li><a href="#"><img src="assets/images/facebook.png" alt="fb" width="38" /></a></li>
+            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" width="38"/></a></li>
+            <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" width="38"/></a></li>
           </ul>
         </nav>
-        <div class="subscribe">
-          <div class="form-control d-flex flex-row">
-            <input type="email" class="form-control border-0 p-0" id="" placeholder="Enter your email to join our mailing list">
+        <div class="subscribe mt-5">
+          <form>
+          <div class="form-control d-flex flex-column flex-lg-row">
+            <input type="email" class="form-control border-0 p-0 text-center text-lg-start py-4 py-md-0 shadow-none" id="" placeholder="Enter your email to join our mailing list.">
             <button type="submit" class="btn btn-primary">Subscribe</button>
           </div>
+          </form>
         </div>
       </div>
      </div>
+  </div>
+  <div class="copyright bgdarkgray txt-white fs-6 mt-5">
+    <div class="container py-4"> 
+      <div class="col-12 text-center text-md-start">
+        Copyright &copy; 2024 All rights reserved Fintos Venture Group
+      </div>
+    </div>  
   </div>
 </footer>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>

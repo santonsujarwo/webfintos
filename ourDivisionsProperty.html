@@ -10,7 +10,7 @@
 <body>
 <header class="site-header"><!--[start:site header]-->
   <div class="container-fluid p-0 position-relative overflow-hidden">
-    <div class="d-lg-none btn btn-toggle position-absolute text-uppercase heading-3 txt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <div class="d-lg-none btn btn-toggle position-absolute text-uppercasetxt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
       <img src="./assets/images/burger-bar.svg" alt="nav" width="40" />
     </div>
     <div class="brand py-3"><a href="index.html"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99" /></a>
@@ -21,8 +21,15 @@
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav align-items-center w-100 justify-content-between">
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0"href="ourDivisions.html">Our Divisions</a>
+            <li class="nav-item haschild">
+              <a class="nav-link text-uppercase p-0" href="ourDivisions.html">Our Divisions</a>
+              <ul class="child-menu">
+                <li><a class="child-item" href="ourDivisionsAdvice.html">Our Divisions Advice</a></li>
+                <li><a class="child-item" href="ourDivisionsFinance.html">Our Divisions Finance</a></li>
+                <li><a class="child-item" href="ourDivisionsProperty.html">Our Divisions Property</a></li>
+                <li><a class="child-item" href="ourDivisionsTech.html">Our Divisions Tech</a></li>
+                <li><a class="child-item" href="ourDivisionsAcademy.html">Our Divisions Academy</a></li>
+              </ul>
             </li>
             <li class="nav-item ">
               <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
@@ -44,136 +51,189 @@
       </div>
     </nav>
   </div>
-</header><!--[end: site header]-->   
-<section class="py-100">
-    <div class="container">
-        <div class="row justify-content-center page-heading pt-5 text-center">
-            <div class="col-12 mb-5">
-              <a href="ourDivisions.html" class="btn-link"> < Division</a>
-            </div>
-            <div class="col-4 mx-auto">
-                <img src="./assets/images/divisions/Fintos-Property.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-12 mt-5">
-                <a href="#" class="btn btn-secondary rounded-pill">Visit Fintos Advise</a>
-            </div>
-        </div><!--row-->
-    </div><!--container-->
+</header><!--[end: site header]-->
+
+<section class="pb-5">
+  <div class="container">
+    <div class="row justify-content-center page-heading pt-5 text-center">
+      <div class="col-12 mb-5">
+        <a class="d-flex align-items-center justify-content-center btn-link btn-icon btn-icon--breadcrumb text-uppercase fw-bold fs-4" href="ourDivisions.html"><img src="./assets/images/chevron.svg" alt="fintos"  /> Divisions</a>
+      </div>
+      <div class="col-4 mx-auto">
+        <img src="./assets/images/divisions/Fintos-Property.png" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 mt-5">
+        <a href="#" target="_blank" class="btn btn-secondary btn-lg btn-icon">Visit Fintos Property <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+      </div>
+    </div><!--row-->
+  </div><!--container-->
 </section><!--#our-division-advise-1-->
 
-<section class="py-100">
-    <div class="bgblue">
-        <div class="container">
-            <div class="col-12">
-                <img src="./assets/images/divisions/hero-property.png" alt="" class="w-100 block img-fluid">
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row justify-content-center py-5">
-            <div class="col-10 text-center my-5">
-                <h1 class="heading-2 fw-extrabold mb-5">Seamless real estate experiences with proptech solutions.</h1>
-                <p class="my-5">We support the growth of property-related businesses by providing innovative solutions that optimize operations, improve customer experiences, and increase profitability. By leveraging our property booking and commission systems, companies can scale their operations effectively and seize new opportunities in the dynamic real estate market.</p>
-                <p>Find out more at <a href="#" class="txt-blue fw-bold">Fintos Advice</a></p>
-            </div>
-        </div><!--row-->
-    </div><!--container-->
+<section class="mt-5">
+  <div class="bgblue">
+      <div class="container">
+          <div class="col-12">
+            <img src="./assets/images/divisions/hero-property.png" alt="" class="w-100 block img-fluid">
+          </div>
+      </div>
+  </div>
+  <div class="container">
+      <div class="row justify-content-center py-5">
+          <div class="col-12 col-md-8 text-center my-5">
+              <h1 class="fs-1 fw-extrabold mb-5">Seamless real estate experiences with proptech solutions.</h1>
+              <p class="fs-5 my-5">We support the growth of property-related businesses by providing innovative solutions that optimize operations, improve customer experiences, and increase profitability. By leveraging our property booking and commission systems, companies can scale their operations effectively and seize new opportunities in the dynamic real estate market.</p>
+              <p class="fs-5">Find out more at <a href="#" class="txt-blue fw-bold">Fintos Property</a></p>
+          </div>
+      </div><!--row-->
+  </div><!--container-->
 </section><!--#our-division-advise-2-->
 
-<section class="py-100 bglightgray">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 class="heading-3 text-center mb-5 fw-extrabold">Latest Fintos Advice stories.</h2>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 mb-5">
-                <img src="./assets/images/divisions/stories-examples/a1-01.png" class="block w-100 img-fluid" alt="">
-                <div class="p-4">
-                    <h3 class="heading-4 fw-extrabold">5 Essential Tips for Building Your Personal Budget</h3>
-                    <span class="txt-slategray">7 January 2023</span>
-                </div>  
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 mb-5">
-                <img src="./assets/images/divisions/stories-examples/a1-02.png" class="block w-100 img-fluid" alt="">
-                <div class="p-4">
-                    <h3 class="heading-4 fw-extrabold">Investors Brace for Volatility Ahead of Upcoming Earnings Reports</h3>
-                    <span class="txt-slategray">18 April 2023</span>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 mb-5">
-                <img src="./assets/images/divisions/stories-examples/a1-03-01.png" class="block w-100 img-fluid" alt="">
-                <div class="p-4">
-                    <h3 class="heading-4 fw-extrabold">Personal Finance Tips for Millennials: Saving for Retirement and Paying Off Debt</h3>
-                    <span class="txt-slategray">18 April 2023</span>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 mb-5">
-                <img src="./assets/images/divisions/stories-examples/a1-04-01.png" class="block w-100 img-fluid" alt="">
-                <div class="p-4">
-                    <h3 class="heading-4 fw-extrabold">Tech Stocks Lead Market Rally as Investors Bet on Digital Transformation</h3>
-                    <span class="txt-slategray">18 April 2023</span>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 mb-5">
-                <img src="./assets/images/divisions/stories-examples/a1-05-01.png" class="block w-100 img-fluid" alt="">
-                <div class="p-4">
-                    <h3 class="heading-4 fw-extrabold">Sustainable Investing Goes Mainstream as ESG Funds Outperform Traditional Stocks</h3>
-                    <span class="txt-slategray">18 April 2023</span>
-                </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4 mb-5">
-                <img src="./assets/images/divisions/stories-examples/a1-06-01.png" class="block w-100 img-fluid" alt="">
-                <div class="p-4">
-                    <h3 class="heading-4 fw-extrabold">Investors Turn to Alternative Assets Amid Uncertainty in Traditional Markets</h3>
-                    <span class="txt-slategray">18 April 2023</span>
-                </div>
-            </div>
-        </div><!--row---->
-    </div><!--container-->
+
+<section class="py-5 bglightgray article">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="fs-1 text-center mb-5 fw-extrabold">Latest Fintos Property stories.</h2>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mb-5">
+        <a href="#"><img src="./assets/images/divisions/stories-examples/a1-01.png" class="block w-100 img-fluid" alt="" /></a>
+        <div class="p-4">
+          <a href="#"><h3 class="fs-4 fw-extrabold">5 Essential Tips for Building Your Personal Budget</h3></a>
+          <span class="txt-slategray">7 January 2023</span>
+        </div>  
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mb-5">
+        <a href="#"><img src="./assets/images/divisions/stories-examples/a1-02.png" class="block w-100 img-fluid" alt=""></a>
+        <div class="p-4">
+          <a href="#"><h3 class="fs-4 fw-extrabold">Investors Brace for Volatility Ahead of Upcoming Earnings Reports</h3></a>
+          <span class="txt-slategray">18 April 2023</span>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mb-5">
+        <a href="#"><img src="./assets/images/divisions/stories-examples/a1-03-01.png" class="block w-100 img-fluid" alt=""></a>
+        <div class="p-4">
+          <a href="#"><h3 class="fs-4 fw-extrabold">Personal Finance Tips for Millennials: Saving for Retirement and Paying Off Debt</h3></a>
+          <span class="txt-slategray">18 April 2023</span>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mb-5">
+        <a href="#"><img src="./assets/images/divisions/stories-examples/a1-04-01.png" class="block w-100 img-fluid" alt=""></a>
+        <div class="p-4">
+          <a href="#"><h3 class="fs-4 fw-extrabold">Tech Stocks Lead Market Rally as Investors Bet on Digital Transformation</h3></a>
+          <span class="txt-slategray">18 April 2023</span>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mb-5">
+        <a href="#"><img src="./assets/images/divisions/stories-examples/a1-05-01.png" class="block w-100 img-fluid" alt=""></a>
+        <div class="p-4">
+          <a href="#"><h3 class="fs-4 fw-extrabold">Sustainable Investing Goes Mainstream as ESG Funds Outperform Traditional Stocks</h3></a>
+          <span class="txt-slategray">18 April 2023</span>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 mb-5">
+        <a href="#"><img src="./assets/images/divisions/stories-examples/a1-06-01.png" class="block w-100 img-fluid" alt=""></a>
+        <div class="p-4">
+          <a href="#"><h3 class="fs-4 fw-extrabold">Investors Turn to Alternative Assets Amid Uncertainty in Traditional Markets</h3></a>
+          <span class="txt-slategray">18 April 2023</span>
+        </div>
+      </div>
+    </div><!--row---->
+  </div><!--container-->
 </section><!--#our-division-advise-3-->
 
-<section class="py-100 bgtertiary">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-12">
-                <h2 class="heading-2 fw-extrabold mb-5">Related Fintos Companies.</h2>
-                <div class="row my-5">
-                    <div class="col-md-4">
-                        <div class="card bgwhite rounded-5 border-0 p-5">
-                            <img src="./assets/images/divisions/Fintos-Finance.png" class="img-fluid" alt="">
-                            <p class="heading-5">Navigate through your complex financial situations.</p>
-                            <a href="#" class="btn-link">Go to FINTOS Finance</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card bgwhite rounded-5 border-0 p-5">
-                            <img src="./assets/images/divisions/Fintos-Finance.png" class="img-fluid" alt="">
-                            <p class="heading-5">Navigate through your complex financial situations.</p>
-                            <a href="#" class="btn-link">Go to FINTOS Finance</a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card bgwhite rounded-5 border-0 p-5">
-                            <img src="./assets/images/divisions/Fintos-Finance.png" class="img-fluid" alt="">
-                            <p class="heading-5">Navigate through your complex financial situations.</p>
-                            <a href="#" class="btn-link">Go to FINTOS Finance</a>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="btn btn-primary">See all Fintos Divisions</a>
-            </div>
-        </div><!--row---->
-    </div><!--container-->
-</section><!--#our-division-advise-4-->
-<footer class="site-footer p-5">
+<section class="py-5 bgtertiary">
   <div class="container">
-     <div class="row">
-      <div class="col-md-3 text-start p-0">
-        <img src="assets/images/logo-fintos-footer.png" alt="fintos" class="img-fluid" />
-        <p><i class="heading-4">Your Key to Financial Freedom</i></p>
+      <div class="row text-center">
+          <div class="col-12 pt-5">
+              <h2 class="fs-1 fw-extrabold mb-5">Related Fintos Companies.</h2>
+          </div>
+          <div class="col-12 position-relative">
+            <div id="carousel-division">
+              <div class="carousel-division-item card rounded-5 p-4 pb-5 p-md-4 border-0 h-100">
+                <img src="./assets/images/divisions/Fintos-Advice.png" class="img-fluid" alt="">
+                <div class="card-body p-0">
+                  <p class="fs-5 txt-slategray pb-5">Secure your future and achieve your financial goals at every life stage.</p>
+                  <a class="btn-link btn-icon" href="ourDivisionsAdvice.html">Go to FINTOS Advice <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+                </div>
+              </div><!--card-->
+              <div class="carousel-division-item card rounded-5 p-4 pb-5 p-md-4 border-0 h-100">
+                <img src="./assets/images/divisions/Fintos-Finance.png" class="img-fluid" alt="">
+                <div class="card-body p-0">
+                  <p class="fs-5 txt-slategray mb-4 pb-5">Realize your dream of owning a home and live in your ideal space.</p>
+                  <a class="btn-link btn-icon" href="ourDivisionsFinance.html">Go to FINTOS Finance <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+                </div>
+              </div><!--card-->
+              <div class="carousel-division-item card rounded-5 p-4 pb-5 p-md-4 border-0 h-100">
+                <img src="./assets/images/divisions/Fintos-Property.png" class="img-fluid" alt="">
+                <div class="card-body p-0">
+                  <p class="fs-5 txt-slategray mb-4 pb-5">Navigate through your complex financial situations.</p>
+                  <a class="btn-link btn-icon" href="ourDivisionsProperty.html">Go to FINTOS Property <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+                </div>
+              </div><!--card-->
+              <div class="carousel-division-item card rounded-5 p-4 pb-5 p-md-4 border-0 h-100">
+                <img src="./assets/images/divisions/Fintos-Tech.png" class="img-fluid" alt="">
+                <div class="card-body p-0">
+                  <p class="fs-5 txt-slategray mb-4 pb-5">Navigate through your complex financial situations.</p>
+                  <a class="btn-link btn-icon" href="ourDivisionsProperty.html">Go to FINTOS Tech <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+                </div>
+              </div><!--card-->
+              <div class="carousel-division-item card rounded-5 p-4 pb-5 p-md-4 border-0 h-100">
+                <img src="./assets/images/divisions/Fintos-Academy.png" class="img-fluid" alt="">
+                <div class="card-body p-0">
+                  <p class="fs-5 txt-slategray mb-4 pb-5">Navigate through your complex financial situations.</p>
+                  <a class="btn-link btn-icon" href="ourDivisionsProperty.html">Go to FINTOS Academy <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+                </div>
+              </div><!--card-->
+            </div><!--#carousel-division--->
+            <div class="carousel-division-btn arrow-prev">
+              <img src="./assets/images/arrow-slider-rigth.svg" alt="">
+            </div>
+            <div class="carousel-division-btn arrow-next">
+              <img src="./assets/images/arrow-slider-rigth.svg" alt="">
+            </div>
+          </div><!--col-12-->
+      </div><!--row---->
+      <div class="row text-center d-none">
+        <div class="col-12 col-sm-6  col-lg-4 mb-4">
+          <div class="card rounded-5 p-4 pb-5 p-md-4 border-0 h-100">
+            <img src="./assets/images/divisions/Fintos-Advice.png" class="img-fluid" alt="">
+            <div class="card-body p-0">
+              <p class="fs-5 txt-slategray pb-5">Secure your future and achieve your financial goals at every life stage.</p>
+              <a class="btn-link btn-icon" href="ourDivisionsAdvice.html">Go to FINTOS Advice <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6  col-lg-4 mb-4">
+          <div class="card rounded-5 p-4 pb-5 p-md-4 border-0 h-100">
+            <img src="./assets/images/divisions/Fintos-Finance.png" class="img-fluid" alt="">
+            <div class="card-body p-0">
+              <p class="fs-5 txt-slategray mb-4 pb-5">Realize your dream of owning a home and live in your ideal space.</p>
+              <a class="btn-link btn-icon" href="ourDivisionsFinance.html">Go to FINTOS Finance <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6  col-lg-4 mb-4">
+          <div class="card rounded-5 p-4 pb-5 p-md-4 border-0 h-100">
+            <img src="./assets/images/divisions/Fintos-Property.png" class="img-fluid" alt="">
+            <div class="card-body p-0">
+              <p class="fs-5 txt-slategray mb-4 pb-5">Navigate through your complex financial situations.</p>
+              <a class="btn-link btn-icon" href="ourDivisionsProperty.html">Go to FINTOS Property <img src="./assets/images/chevron.svg" alt="fintos"  /></a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-3 p-0">
-        <h4 class="heading-3 fw-extrabold">About Fintos</h4>
+  </div><!--container-->
+</section>
+<div class="divider-bottom-tertiary"><span>&nbsp;</span><span class="vertical-line">&nbsp;</span></div>
+<footer class="site-footer pt-5 mt-5">
+  <div class="container">
+     <div class="row mt-5">
+      <div class="col-md-3 text-center text-lg-start p-md-0">
+        <img src="assets/images/logo-fintos-footer.png" alt="fintos" width="80" class="img-fluid mb-5" />
+        <p><i class="fs-5 fw-bold">Your Key to Financial Freedom</i></p>
+      </div>
+      <div class="col-md-3 p-md-0 text-center text-md-start">
+        <h4 class="fs-3 fw-extrabold">About Fintos</h4>
         <nav>
             <ul class="list-unstyled">
               <li><a href="#">Divisions</a></li>
@@ -184,8 +244,8 @@
             </ul>
         </nav>
       </div>
-      <div class="col-md-2 p-0">
-        <h4 class="heading-3 fw-extrabold">Legal</h4>
+      <div class="col-md-2 p-md-0 text-center text-md-start">
+        <h4 class="fs-3 fw-extrabold">Legal</h4>
         <nav>
             <ul class="list-unstyled">
               <li><a href="#">Terms & Conditions</a></li>
@@ -194,58 +254,77 @@
             </ul>
         </nav>
       </div>
-      <div class="col-md-4 text-end justify-content-end p-0">
-        <h4 class="heading-4 fw-extrabold">Follow Us</h4>
+      <div class="col-md-4 text-center text-lg-end justify-content-center justify-content-lg-end p-md-0">
+        <h4 class="fs-4 fw-extrabold">Follow Us</h4>
         <nav class="socialmedia">
-          <ul class="d-flex list-unstyled justify-content-end">
-            <li><a href="#"><img src="assets/images/facebook.png" alt="fb" /></a></li>
-            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" /></a></li>
-            <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" /></a></li>
+          <ul class="d-flex list-unstyled justify-content-center justify-content-lg-end">
+            <li><a href="#"><img src="assets/images/facebook.png" alt="fb" width="38" /></a></li>
+            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" width="38"/></a></li>
+            <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" width="38"/></a></li>
           </ul>
         </nav>
-        <div class="subscribe">
-          <div class="form-control d-flex flex-row">
-            <input type="email" class="form-control border-0 p-0" id="" placeholder="Enter your email to join our mailing list">
+        <div class="subscribe mt-5">
+          <form>
+          <div class="form-control d-flex flex-column flex-lg-row">
+            <input type="email" class="form-control border-0 p-0 text-center text-lg-start py-4 py-md-0 shadow-none" id="" placeholder="Enter your email to join our mailing list.">
             <button type="submit" class="btn btn-primary">Subscribe</button>
           </div>
+          </form>
         </div>
       </div>
      </div>
   </div>
+  <div class="copyright bgdarkgray txt-white fs-6 mt-5">
+    <div class="container py-4"> 
+      <div class="col-12 text-center text-md-start">
+        Copyright &copy; 2024 All rights reserved Fintos Venture Group
+      </div>
+    </div>  
+  </div>
 </footer>
-<script src="./assets/js/bootstrap.bundle.min.js"></script>
+
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal-content border-0">
+      <div class="modal-header border-0">
+        <button type="button" class="z-2 btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
-        <div class="modal-body">
-          <ul class="navbar-nav align-items-start w-100 justify-content-between">
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0"href="ourDivisions.html">Our Divisions</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-uppercase p-0" href="forPartners.html">For Partners</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="careers.html">Careers</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="contactUs.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-btn txt-primary" href="#">Visit FINTOS Venture Group Website</a>
-            </li>
-          </ul>
-        </div>
+      <div class="modal-body border-0 mt-5">
+        <ul class="navbar-nav align-items-start w-100 justify-content-between">
+          <li class="nav-item ">
+            <a class="nav-link p-0"href="index.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link p-0" href="ourDivisions.html">Our Divisions</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link p-0" href="aboutUs.html">About Fintos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0" href="forPartners.html">For Partners</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link p-0" href="careers.html">Careers</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link p-0" href="contactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item txt-primary">
+            <a href="#" class="btn-link btn-icon fw-bold"><img src="./assets/images/chevron.svg" alt="fintos" class="ms-0 me-1"  /> Visit FINTOS Venture Group Website</a>
+          </li>
+        </ul>
       </div>
+      <div class="modal-footer">&nbsp;</div>
     </div>
   </div>
 </div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="./assets/js/fintos.js"></script>
 </body>
 </html>

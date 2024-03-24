@@ -21,14 +21,14 @@
       <div class="container">
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav align-items-center w-100 justify-content-between">
-            <li class="nav-item dropdown">
-              <a class="nav-link text-uppercase p-0 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="ourDivisions.html">Our Divisions</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="ourDivisionsAdvice.html">Our Divisions Advice</a></li>
-                <li><a class="dropdown-item" href="ourDivisionsFinance.html">Our Divisions Finance</a></li>
-                <li><a class="dropdown-item" href="ourDivisionsProperty.html">Our Divisions Property</a></li>
-                <li><a class="dropdown-item" href="ourDivisionsTech.html">Our Divisions Tech</a></li>
-                <li><a class="dropdown-item" href="ourDivisionsAcademy.html">Our Divisions Academy</a></li>
+            <li class="nav-item haschild">
+              <a class="nav-link text-uppercase p-0" href="ourDivisions.html">Our Divisions</a>
+              <ul class="child-menu">
+                <li><a class="child-item" href="ourDivisionsAdvice.html">Our Divisions Advice</a></li>
+                <li><a class="child-item" href="ourDivisionsFinance.html">Our Divisions Finance</a></li>
+                <li><a class="child-item" href="ourDivisionsProperty.html">Our Divisions Property</a></li>
+                <li><a class="child-item" href="ourDivisionsTech.html">Our Divisions Tech</a></li>
+                <li><a class="child-item" href="ourDivisionsAcademy.html">Our Divisions Academy</a></li>
               </ul>
             </li>
             <li class="nav-item ">
@@ -281,37 +281,49 @@
     </div>  
   </div>
 </footer>
-<script src="./assets/js/bootstrap.bundle.min.js"></script>
+
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal-content border-0">
+      <div class="modal-header border-0">
+        <button type="button" class="z-2 btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body border-0 mt-5">
         <ul class="navbar-nav align-items-start w-100 justify-content-between">
           <li class="nav-item ">
-            <a class="nav-link text-uppercase p-0"href="ourDivisions.html">Our Divisions</a>
+            <a class="nav-link p-0"href="index.html">Home</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
+            <a class="nav-link p-0" href="ourDivisions.html">Our Divisions</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link p-0" href="aboutUs.html">About Fintos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-uppercase p-0" href="forPartners.html">For Partners</a>
+            <a class="nav-link p-0" href="forPartners.html">For Partners</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-uppercase p-0" href="careers.html">Careers</a>
+            <a class="nav-link p-0" href="careers.html">Careers</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-uppercase p-0" href="contactUs.html">Contact Us</a>
+            <a class="nav-link p-0" href="contactUs.html">Contact Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link nav-btn txt-primary" href="#">Visit FINTOS Venture Group Website</a>
+          <li class="nav-item txt-primary">
+            <a href="#" class="btn-link btn-icon fw-bold"><img src="./assets/images/chevron.svg" alt="fintos" class="ms-0 me-1"  /> Visit FINTOS Venture Group Website</a>
           </li>
         </ul>
       </div>
+      <div class="modal-footer">&nbsp;</div>
     </div>
   </div>
 </div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="./assets/js/fintos.js"></script>
 </body>
 </html>

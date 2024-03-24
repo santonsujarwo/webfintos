@@ -10,7 +10,7 @@
 <body>
 <header class="site-header"><!--[start:site header]-->
   <div class="container-fluid p-0 position-relative overflow-hidden">
-    <div class="d-lg-none btn btn-toggle position-absolute text-uppercase heading-3 txt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <div class="d-lg-none btn btn-toggle position-absolute text-uppercasetxt-primary fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">
       <img src="./assets/images/burger-bar.svg" alt="nav" width="40" />
     </div>
     <div class="brand py-3"><a href="index.html"><img class="mx-auto d-block" src="./assets/images/logo-fintos.png" alt="fintos" width="99" /></a>
@@ -19,13 +19,17 @@
   <div class="main-navigation px-3">
     <nav class="navbar navbar-expand-lg ">
       <div class="container">
-        <!--<button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>-->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav align-items-center w-100 justify-content-between">
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0"href="#">Our Divisions</a>
+            <li class="nav-item haschild">
+              <a class="nav-link text-uppercase p-0" href="ourDivisions.html">Our Divisions</a>
+              <ul class="child-menu">
+                <li><a class="child-item" href="ourDivisionsAdvice.html">Our Divisions Advice</a></li>
+                <li><a class="child-item" href="ourDivisionsFinance.html">Our Divisions Finance</a></li>
+                <li><a class="child-item" href="ourDivisionsProperty.html">Our Divisions Property</a></li>
+                <li><a class="child-item" href="ourDivisionsTech.html">Our Divisions Tech</a></li>
+                <li><a class="child-item" href="ourDivisionsAcademy.html">Our Divisions Academy</a></li>
+              </ul>
             </li>
             <li class="nav-item ">
               <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
@@ -47,97 +51,108 @@
       </div>
     </nav>
   </div>
-</header><!--[end: site header]-->   
-<section class="py-100 bgtertiary hero-heading" 
-    style="background-image: url('./assets/images/aboutus/aboutus1-01-01.png'); width: 100%; background-repeat: no-repeat; background-size: cover;">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <h1 class="heading-2 text-center txt-white fw-bold mb-4">Fintos Financial Hub</h1>
+</header><!--[end: site header]--> 
+
+<section class="hero-heading mb-5" 
+    style="background-image: url('./assets/images/financialhub/fintosfinancial.png'); width: 100%; background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="container pt-4">
+        <div class="row justify-content-center pt-5">
+            <div class="col-12 text-center pt-5">
+                <h1 class="display-4 text-center txt-white fw-bold mb-4">Fintos Financial Hub</h1>
                 <img src="./assets/images/down-chevron-white.svg" alt="chevron" width="65" />
             </div>
         </div><!--row-->
     </div><!--container-->
 </section>
-<section class="py-100">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h2 class="heading-2 txt-primary">A hub for all your financial needs.</h2>
-                <p>Everyone deserves a better financial future, and at Fintos Financial Hub, we exist to empower you to meet your personal needs. We provide access to a wide range of financial products, services, and resources designed to help you reach your goals and make the most of your money.</p>
-            </div>
-        </div><!--row-->
+
+<section class="with-divider position-relative my-5 pb-5">
+  <div class="container">
+     <div class="row">
+        <div class="col-12 col-md-10 text-center mx-auto">
+           <h2 class="fs-1 fw-extrabold txt-primary"><span class="position-relative bgwhite">A hub for all your financial needs.</span></h2>
+           <p class="fs-5 text-center txt-slategray py-5">Everyone deserves a better financial future, and at Fintos Financial Hub, we exist to empower you to meet your personal needs. We provide access to a wide range of financial products, services, and resources designed to help you reach your goals and make the most of your money.</p>
+
+        </div>
+     </div><!--row-->
+  </div><!--container-->
+</section>
+
+<section class="pt-5 my-5 position-relative finhub-featured">
+    <div class="container position-relative">
         <div class="row text-center mx-auto">
             <div class="col-12 col-md-4 mb-5">
-                <div class="p-5 bg-white brd-solid brd-primary brd-1 rounded-5 h-100">
-                    <img src="./assets/images/aboutus/Group6208.svg" alt="">
-                    <p class="text-secondary-2 mt-4">We have helped thousands of clients achieve their financial goals.</p>
+                <div class="z-2 p-5 align-items-center bgwhite card rounded40 border-primary h-100 position-relative">
+                    <img src="./assets/images/aboutus/Group6208.svg" width="80" alt="" class="img-fluid" />
+                    <p class="fs-5 txt-slategray mt-4">We have helped thousands of clients achieve their financial goals.</p>
                 </div>
             </div>
             <div class="col-12 col-md-4 mb-5">
-                <div class="p-5 bg-white brd-solid brd-primary brd-1 rounded-5 h-100">
-                    <img src="./assets/images/aboutus/Group6208.svg" alt="">
-                    <p class="text-secondary-2 mt-4">Our expertise has improved credit scores by up to 20%.</p>
+              <div class="z-2 p-5 align-items-center card rounded40 border-primary h-100 position-relative">
+                <img src="./assets/images/aboutus/Group6208.svg" width="80" alt="" class="img-fluid" />
+                    <p class="fs-5 txt-slategray mt-4">Our expertise has improved credit scores by up to 20%.</p>
                 </div>
             </div>
             <div class="col-12 col-md-4 mb-5">
-                <div class="p-5 bg-white brd-solid brd-primary brd-1 rounded-5 h-100">
-                    <img src="./assets/images/aboutus/Group6208.svg" alt="">
-                    <p class="text-secondary-2 mt-4">We have achieved an impressive loan recovery rate of up to 65% for previously rejected applications.</p>
+              <div class="z-2 p-5 align-items-center card rounded40 border-primary h-100 position-relative">
+                <img src="./assets/images/aboutus/Group6208.svg" width="80" alt="" class="img-fluid" />
+                    <p class="fs-5 txt-slategray mt-4">We have achieved an impressive loan recovery rate of up to 65% for previously rejected applications.</p>
                 </div>
             </div>
         </div>
     </div>
+  </div>
+  <div class="line-strip">&nbsp;</div>
 </section>
-<section class="py-100 bglightgray">
+
+<section class="my-5">
     <div class="container">
         <div class="row text-center">
-            <div class="col-12 mb-5">
-                <h2 class="heading-2 fw-bold">What are your financial priorities?</h2>
+            <div class="col-12 my-5">
+                <h2 class="fs-1 fw-bold">What are your financial priorities?</h2>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mb-3">
                 <div class="bggray h-100 rounded-5 px-3 py-5">
                     <img src="./assets/images/financialhub/signing.png" style="display: block; width: 64px; height: auto; margin: 0 auto;" alt="">
-                    <h3 class="heading-5 fw-bold my-2">Get a loan</h3>
-                    <p>A variety of options to enhance your financial flexibility</p>
+                    <h3 class="fs-4 fw-bold my-4">Get a loan</h3>
+                    <p class="fs-6">A variety of options to enhance your financial flexibility</p>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mb-3">
                 <div class="bggray h-100 rounded-5 px-3 py-5">
                     <img src="./assets/images/financialhub/milestone.png" style="display: block; width: 64px; height: auto; margin: 0 auto;" alt="">
-                    <h3 class="heading-5 fw-bold my-2">Preparing for Life's Milestones</h3>
+                    <h3 class="fs-4 fw-bold my-4">Preparing for Life's Milestones</h3>
                     <p>Ensure that your objectives are attainable and make strides towards reaching your goals</p>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mb-3">
                 <div class="bggray h-100 rounded-5 px-3 py-5">
                     <img src="./assets/images/financialhub/credit-card.png" style="display: block; width: 64px; height: auto; margin: 0 auto;" alt="">
-                    <h3 class="heading-5 fw-bold my-2">Paying off Debt and Improving credit</h3>
-                    <p>Strategies for managing debt and building a strong credit history</p>
+                    <h3 class="fs-4 fw-bold my-4">Paying off Debt and Improving credit</h3>
+                    <p class="fs-6">Strategies for managing debt and building a strong credit history</p>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mb-3">
                 <div class="bggray h-100 rounded-5 px-3 py-5">
                     <img src="./assets/images/financialhub/communication.png" style="display: block; width: 64px; height: auto; margin: 0 auto;" alt="">
-                    <h3 class="heading-5 fw-bold my-2">Work with a dedicated advisor</h3>
-                    <p>Invest, build wealth and save for retirement</p>
+                    <h3 class="fs-4 fw-bold my-4">Work with a dedicated advisor</h3>
+                    <p class="fs-6">Invest, build wealth and save for retirement</p>
                 </div>
             </div>
         </div><!--row-->
     </div><!--container-->
 </section>
-<section class="bg-stretch container-fluid bglightgray">
+<section class="bg-stretch mt-5">
     <div class="container">
-        <div class="row float-left">
-            <div class="col-12 bg-stretch-left bgprimary py-5 pr-5 mb-5">
+        <div class="row ">
+            <div class="col-12 col-md-10 bg-stretch-left text-center text-md-start bgprimary py-5 pr-5 mb-5">
                 <div class="row align-items-center">
-                    <div class="p-4 col-12 col-md-4">
-                        <img src="./assets/images/financialhub/happy-young-asian-couple-realtor-agent (1).jpg" class="d-block w-100 h-100" alt="">
+                    <div class="p-4 col-12 col-md-5">
+                        <img src="./assets/images/financialhub/portrait-beautiful-young-asian-woman-work-from-home-with-laptop-cash-cardboard-box-ready-shipping-online.jpg" class="d-block w-100 h-100" alt="">
                     </div>
-                    <div class="p-4 col-12 col-md-8">
-                        <h3 class="fw-bold heading-3">Get a loan</h3>
-                        <p>With competitive rates that match your needs, we offer the right products to help you maximize your money.</p>
-                        <ul class="fw-bold list-unstyled">
+                    <div class="p-4 col-12 col-md-5">
+                        <h3 class="fs-2 fw-bold heading-3">Get a loan</h3>
+                        <p class="fs-6">With competitive rates that match your needs, we offer the right products to help you maximize your money.</p>
+                        <ul class="fs-5 fw-bold list-unstyled">
                             <li>- Mortgage Loans</li>
                             <li>- Refinance Loans</li>
                             <li>- Personal Financing/Loan</li>
@@ -151,15 +166,15 @@
 
     <div class="container">
         <div class="row float-right">
-            <div class="col-12 bg-stretch-right text-end bgprimary py-5 pr-5 mb-5">
+            <div class="col-12 colmd-10 bg-stretch-right text-center text-md-end bgprimary py-5 pr-5 mb-5">
                 <div class="row align-items-center">
-                    <div class="p-4 col-12 col-md-4 order-1 order-md-2">
-                        <img src="./assets/images/financialhub/happy-young-asian-couple-realtor-agent (1).jpg" class="d-block w-100 h-100" alt="">
+                    <div class="p-4 col-12 col-md-5 order-1 order-md-2">
+                        <img src="./assets/images/financialhub/medium-shot-asian-woman-sharing-creative-ideas-home-design-with-husband.jpg" class="d-block w-100 h-100" alt="">
                     </div>
-                    <div class="p-4 col-12 col-md-8 order-2 order-md-1">
-                        <h3 class="fw-bold heading-3">Preparing for Life's Milestones</h3>
-                        <p>Whether you want to start a business or save for your dream home, our financial advisors can help you plan for what's next.</p>
-                        <ul class="fw-bold list-unstyled">
+                    <div class="p-4 col-12 col-md-5 order-2 order-md-1">
+                        <h3 class="fs-2 fw-bold heading-3">Preparing for Life's Milestones</h3>
+                        <p class="fs-6">Whether you want to start a business or save for your dream home, our financial advisors can help you plan for what's next.</p>
+                        <ul class="fs-5 fw-bold list-unstyled">
                             <li>- Financial Advising</li>
                             <li>- Financial Planning</li>
                             <li>- Debt Management</li>
@@ -172,15 +187,15 @@
 
     <div class="container">
         <div class="row float-left">
-            <div class="col-12 bg-stretch-left bgprimary py-5 pr-5 mb-5">
+          <div class="col-12 col-md-10 bg-stretch-left text-center text-md-start bgprimary py-5 pr-5 mb-5">
                 <div class="row align-items-center">
-                    <div class="p-4 col-12 col-md-4">
-                        <img src="./assets/images/financialhub/happy-young-asian-couple-realtor-agent (1).jpg" class="d-block w-100 h-100" alt="">
+                    <div class="p-4 col-12 col-md-5">
+                        <img src="./assets/images/financialhub/processing-online-payment-husband-wife-processing-online-payment-while-shopping-online.jpg" class="d-block w-100 h-100" alt="">
                     </div>
-                    <div class="p-4 col-12 col-md-8">
-                        <h3 class="fw-bold heading-3">Paying off Debt and Improving credit</h3>
-                        <p>Regain control of your finances and improve your financial health.</p>
-                        <ul class="fw-bold list-unstyled">
+                    <div class="p-4 col-12 col-md-5">
+                        <h3 class="fs-2 fw-bold heading-3">Paying off Debt and Improving credit</h3>
+                        <p class="fs-6">Regain control of your finances and improve your financial health.</p>
+                        <ul class="fs-5 fw-bold list-unstyled">
                             <li>- Debt consolidation</li>
                             <li>- Debt restructure</li>
                         </ul>
@@ -192,15 +207,15 @@
     
     <div class="container">
         <div class="row float-right">
-            <div class="col-12 bg-stretch-right text-end bgprimary py-5 pr-5 mb-5">
+            <div class="col-12 col-md-10 bg-stretch-right text-center text-md-end bgprimary py-5 pr-5 mb-5">
                 <div class="row align-items-center">
-                    <div class="p-4 col-12 col-md-4 order-1 order-md-2">
+                    <div class="p-4 col-12 col-md-5 order-1 order-md-2">
                         <img src="./assets/images/financialhub/happy-young-asian-couple-realtor-agent (1).jpg" class="d-block w-100 h-100" alt="">
                     </div>
-                    <div class="p-4 col-12 col-md-8 order-2 order-md-1">
-                        <h3 class="fw-bold heading-3">Work with a dedicated advisor</h3>
-                        <p>Set both short and long-term goals, receive personalized advice, and adapt your financial plan as your life evolves.</p>
-                        <ul class="fw-bold list-unstyled">
+                    <div class="p-4 col-12 col-md-5 order-2 order-md-1">
+                        <h3 class="fs-2 fw-bold heading-3">Work with a dedicated advisor</h3>
+                        <p class="fs-6">Set both short and long-term goals, receive personalized advice, and adapt your financial plan as your life evolves.</p>
+                        <ul class="fs-5 fw-bold list-unstyled">
                             <li>- Financial Coach</li>
                         </ul>
                     </div>
@@ -211,11 +226,11 @@
 
 </section>
 
-<section class="bgtertiary py-100">
+<section class="bgtertiary py-5 mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 mb-5">
-                <h2 class="heading-2 txt-primary fw-bold text-center">Visit Fintos Financial Hub Today!</h2>
+            <div class="col-12 mb-5 pt-5">
+                <h2 class="fs-2 txt-primary fw-bold text-center">Visit Fintos Financial Hub Today!</h2>
             </div>
         </div>
     </div>
@@ -230,115 +245,117 @@
     </div>
     <div class="container mt-5">
         <div class="row">
-            <div class="col-12 p-5 text-center">
-                <h3 class="heading-3 fw-bold">In a good financial position and ready to take it to the next level?</h3>
-                <p><span class="txt-primary fw-bold">Schedule an appointment</span> with us to discuss your needs and goals, and we'll work with you to develop a customized financial plan that aligns with your objectives.</p>
+            <div class="col-12 col-md-10 mx-auto p-5 text-center">
+                <h3 class="fs-3 fw-bold">In a good financial position and ready to take it to the next level?</h3>
+                <p><span class="fs-5 txt-primary fw-bold">Schedule an appointment</span> with us to discuss your needs and goals, and we'll work with you to develop a customized financial plan that aligns with your objectives.</p>
             </div>
         </div>
     </div>
 </section>
+<div class="divider-bottom-tertiary position-relative">
+  <span>&nbsp;</span>
+  <span class="vertical-line">&nbsp;</span>
+</div>
 
+<footer class="site-footer pt-5 mt-5">
+  <div class="container">
+     <div class="row mt-5">
+      <div class="col-md-3 text-center text-lg-start p-md-0">
+        <img src="assets/images/logo-fintos-footer.png" alt="fintos" width="80" class="img-fluid mb-5" />
+        <p><i class="fs-5 fw-bold">Your Key to Financial Freedom</i></p>
+      </div>
+      <div class="col-md-3 p-md-0 text-center text-md-start">
+        <h4 class="fs-3 fw-extrabold">About Fintos</h4>
+        <nav>
+            <ul class="list-unstyled">
+              <li><a href="#">Divisions</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Fintos Financial Hub</a></li>
+            </ul>
+        </nav>
+      </div>
+      <div class="col-md-2 p-md-0 text-center text-md-start">
+        <h4 class="fs-3 fw-extrabold">Legal</h4>
+        <nav>
+            <ul class="list-unstyled">
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookies</a></li>
+            </ul>
+        </nav>
+      </div>
+      <div class="col-md-4 text-center text-lg-end justify-content-center justify-content-lg-end p-md-0">
+        <h4 class="fs-4 fw-extrabold">Follow Us</h4>
+        <nav class="socialmedia">
+          <ul class="d-flex list-unstyled justify-content-center justify-content-lg-end">
+            <li><a href="#"><img src="assets/images/facebook.png" alt="fb" width="38" /></a></li>
+            <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" width="38"/></a></li>
+            <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" width="38"/></a></li>
+          </ul>
+        </nav>
+        <div class="subscribe mt-5">
+          <form>
+          <div class="form-control d-flex flex-column flex-lg-row">
+            <input type="email" class="form-control border-0 p-0 text-center text-lg-start py-4 py-md-0 shadow-none" id="" placeholder="Enter your email to join our mailing list.">
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </div>
+          </form>
+        </div>
+      </div>
+     </div>
+  </div>
+  <div class="copyright bgdarkgray txt-white fs-6 mt-5">
+    <div class="container py-4"> 
+      <div class="col-12 text-center text-md-start">
+        Copyright &copy; 2024 All rights reserved Fintos Venture Group
+      </div>
+    </div>  
+  </div>
+</footer>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content border-0">
+      <div class="modal-header border-0">
+        <button type="button" class="z-2 btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body border-0 mt-5">
+        <ul class="navbar-nav align-items-start w-100 justify-content-between">
+          <li class="nav-item ">
+            <a class="nav-link p-0"href="index.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link p-0" href="ourDivisions.html">Our Divisions</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link p-0" href="aboutUs.html">About Fintos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0" href="forPartners.html">For Partners</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link p-0" href="careers.html">Careers</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link p-0" href="contactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item txt-primary">
+            <a href="#" class="btn-link btn-icon fw-bold"><img src="./assets/images/chevron.svg" alt="fintos" class="ms-0 me-1"  /> Visit FINTOS Venture Group Website</a>
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer">&nbsp;</div>
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
 
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<footer class="site-footer p-5">
-    <div class="container">
-       <div class="row">
-        <div class="col-md-3 text-start p-0">
-          <img src="assets/images/logo-fintos-footer.png" alt="fintos" class="img-fluid" />
-          <p><i class="heading-4">Your Key to Financial Freedom</i></p>
-        </div>
-        <div class="col-md-3 p-0">
-          <h4 class="heading-3 fw-extrabold">About Fintos</h4>
-          <nav>
-              <ul class="list-unstyled">
-                <li><a href="#">Divisions</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Fintos Financial Hub</a></li>
-              </ul>
-          </nav>
-        </div>
-        <div class="col-md-2 p-0">
-          <h4 class="heading-3 fw-extrabold">Legal</h4>
-          <nav>
-              <ul class="list-unstyled">
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Cookies</a></li>
-              </ul>
-          </nav>
-        </div>
-        <div class="col-md-4 text-end justify-content-end p-0">
-          <h4 class="heading-4 fw-extrabold">Follow Us</h4>
-          <nav class="socialmedia">
-            <ul class="d-flex list-unstyled justify-content-end">
-              <li><a href="#"><img src="assets/images/facebook.png" alt="fb" /></a></li>
-              <li><a href="#"><img src="assets/images/linkedin.png" alt="fb" /></a></li>
-              <li><a href="#"><img src="assets/images/tiktok.png" alt="fb" /></a></li>
-            </ul>
-          </nav>
-          <div class="subscribe">
-            <div class="form-control d-flex flex-row">
-              <input type="email" class="form-control border-0 p-0" id="" placeholder="Enter your email to join our mailing list">
-              <button type="submit" class="btn btn-primary">Subscribe</button>
-            </div>
-          </div>
-        </div>
-       </div>
-    </div>
-  </footer>
-  <script src="./assets/js/bootstrap.bundle.min.js"></script>
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="modal-body">
-          <ul class="navbar-nav align-items-start w-100 justify-content-between">
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0"href="ourDivisions.html">Our Divisions</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="aboutUs.html">About Fintos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-uppercase p-0" href="forPartners.html">For Partners</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="careers.html">Careers</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-uppercase p-0" href="contactUs.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-btn txt-primary" href="#">Visit FINTOS Venture Group Website</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="./assets/js/fintos.js"></script>
 </body>
 </html>
